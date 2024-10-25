@@ -1,12 +1,12 @@
-# PictoBoard Pro 👑
+# React
 
-Welcome to **PictoBoard Pro**, your ultimate image organizing app designed to help you manage and categorize your photos effortlessly. Whether you're a casual user looking to keep your memories tidy or a pro needing advanced features, PictoBoard Pro has got you covered!
+Welcome to **React**, your ultimate image organizing app designed to help you manage and categorize your photos effortlessly. Whether you're a casual user looking to keep your memories tidy or a pro needing advanced features, React has got you covered!
 
 ## 📱 Features
 
 - **Organize with Boards:** Create multiple **Boards** (categories) to organize your images. Perfect for separating personal photos, work-related images, projects, and more!
   
-- **Unlimited Boards & Images (Pro):** Purchase PictoBoard Pro to unlock unlimited Boards and add as many images as you like.
+- **Unlimited Boards & Images (Pro):** Purchase React to unlock unlimited Boards and add as many images as you like.
   
 - **Trash Management:** Easily delete unwanted images by moving them to the Trash. You can also permanently delete items from the Trash.
   
@@ -24,12 +24,12 @@ Welcome to **PictoBoard Pro**, your ultimate image organizing app designed to he
 
 ### 🛠 Installation
 
-1. **Download PictoBoard Pro:**
+1. **Download React Pro:**
    - Visit the [App Store](https://www.apple.com/app-store/) on your iOS device.
-   - Search for **PictoBoard Pro** and tap **Get** to install.
+   - Search for **React Pro** and tap **Get** to install.
 
 2. **Launch the App:**
-   - Open PictoBoard Pro from your home screen.
+   - Open React Pro from your home screen.
    - Allow the app to access your photos when prompted.
 
 ### 🎨 How to Use
@@ -61,9 +61,9 @@ Welcome to **PictoBoard Pro**, your ultimate image organizing app designed to he
 
 ## 💡 Frequently Asked Questions (FAQ)
 
-### ❓ What is PictoBoard Pro?
+### ❓ What is React Pro?
 
-PictoBoard Pro is an image organizing app that allows you to create multiple Boards to categorize and manage your photos efficiently.
+React Pro is an image organizing app that allows you to create multiple Boards to categorize and manage your photos efficiently.
 ### ❓ How do I create a new Board?
 
 To create a new Board, tap the **+** button at the bottom of the screen, enter a name for your Board, and start adding images.
@@ -82,20 +82,20 @@ Yes! Select **Rearrange Board** from the menu to drag and drop your Boards into 
 
 ### ❓ How do I permanently delete images from the Trash?
 
-1. Go to the **Trash** Board.
+1. Go to **Trash**.
 2. Tap the menu icon (three horizontal lines) in the header.
 3. Select **Clear Trash** to permanently delete all images in the Trash.
 
-### ❓ Is my data safe with PictoBoard Pro?
+### ❓ Is my data safe with React Pro?
 
 Yes, your data is securely stored on your device and optionally backed up to iCloud if you choose to enable syncing. We prioritize your privacy and data security.
 
 ### ❓ Who can I contact for support?
 
-For support or any questions, please reach out to me at [jiajunhe1997@gmail.com](mailto:jiajunhe1997@gmail.com).
+For support or any questions, please reach out to me at [jiajunhe@gmail.com](mailto:jiajunhe@gmail.com).
 
 ## 📝 License
 
-PictoBoard Pro is solely owned by JiaJun He. All attempts to imitate or copy PictoBoard will face legal reprucussions.
+React Pro is solely owned by JiaJun He. All attempts to imitate or copy React will face legal reprucussions.
 
-Thank you for choosing **PictoBoard Pro**! We hope it helps you keep your memories organized and easily accessible. Happy organizing! 🎉
+Thank you for choosing **React Pro**! We hope it helps you keep your memories organized and easily accessible. Happy organizing! 🎉
