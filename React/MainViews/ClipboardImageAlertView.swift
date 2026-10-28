@@ -42,14 +42,15 @@ struct ClipboardImageAlertView: View {
         .cornerRadius(10)
         .padding()
         .shadow(radius: 10)
-        .frame(width: 300)
+        .frame(maxWidth: 420)
+        .padding(.horizontal, 16)
     }
 }
 
 struct ClipboardImageAlertView_Previews: PreviewProvider {
     static var previews: some View {
-        // Create a sample ContentViewModel with the required StoreManager instance
-        let viewModel = ContentViewModel(storeManager: StoreManager.shared)
+        // Create a sample view model
+        let viewModel = ContentViewModel()
 
         // Set a sample image for the clipboardImage
         viewModel.clipboardImage = UIImage(named: "AppIcon") // Replace "sampleImage" with an actual image name from your Assets

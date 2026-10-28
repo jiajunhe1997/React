@@ -5,8 +5,7 @@ An iOS app with a custom keyboard and share extension, built with Swift and Xcod
 ## Development
 
 Open `React.xcodeproj` in Xcode and select the shared `React` scheme.
-Let Xcode resolve the Swift package dependencies. Keep the app's
-`Package.resolved` file committed so collaborators use the same dependency versions.
+The app has no third-party package dependencies or advertising SDKs.
 Configure signing locally for device builds; never commit private signing keys or
 provisioning profiles. Shared schemes, entitlements, project files, and assets
 belong in Git; personal Xcode settings and build output do not.

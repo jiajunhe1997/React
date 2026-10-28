@@ -31,7 +31,7 @@ struct ZoomableScrollView<Content: View>: UIViewRepresentable {
     }
 
     func makeUIView(context: Context) -> UIScrollView {
-        let scrollView = UIScrollView()
+        let scrollView = WindowSizedZoomScrollView()
         scrollView.delegate = context.coordinator
         scrollView.maximumZoomScale = 5.0
         scrollView.minimumZoomScale = 1.0
@@ -42,7 +42,8 @@ struct ZoomableScrollView<Content: View>: UIViewRepresentable {
 
         let hostingController = UIHostingController(rootView: content)
         hostingController.view.translatesAutoresizingMaskIntoConstraints = true
-        hostingController.view.frame = UIScreen.main.bounds
+        hostingController.view.frame = scrollView.bounds
+        scrollView.zoomContent = hostingController.view
         scrollView.addSubview(hostingController.view)
 
         context.coordinator.hostingController = hostingController
@@ -51,7 +52,7 @@ struct ZoomableScrollView<Content: View>: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: UIScrollView, context: Context) {
-        // No need to update the view
+        context.coordinator.hostingController?.rootView = content
     }
 
     func makeCoordinator() -> Coordinator {
@@ -71,5 +72,18 @@ struct ZoomableScrollView<Content: View>: UIViewRepresentable {
             let offsetY = max((scrollView.bounds.height - scrollView.contentSize.height) * 0.5, 0)
             scrollView.contentInset = UIEdgeInsets(top: offsetY, left: offsetX, bottom: 0, right: 0)
         }
+    }
+}
+
+final class WindowSizedZoomScrollView: UIScrollView {
+    weak var zoomContent: UIView?
+    private var previousSize = CGSize.zero
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        guard bounds.size != previousSize, bounds.width > 0, bounds.height > 0 else { return }
+        previousSize = bounds.size
+        zoomScale = 1
+        zoomContent?.frame = CGRect(origin: .zero, size: bounds.size)
+        contentSize = bounds.size
     }
 }

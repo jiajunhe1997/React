@@ -4,7 +4,8 @@ struct TutorialPageView: View {
     let page: TutorialPage
 
     var body: some View {
-        VStack(spacing: 20) {
+        ScrollView {
+            VStack(spacing: 20) {
             Image(page.imageName)
                 .resizable()
                 .scaledToFit()
@@ -22,7 +23,9 @@ struct TutorialPageView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
 
-            Spacer()
+            }
+            .frame(maxWidth: 600)
+            .frame(maxWidth: .infinity)
         }
     }
 }
@@ -36,7 +39,7 @@ let tutorialPages = [
     TutorialPage(
         imageName: "keyboard_access",
         title: NSLocalizedString("React KeyBoard", comment: "Tutorial"),
-        description: NSLocalizedString("Access your pictures from the keyboard! Enable full access for the React Keyboard in Settings > General > Keyboard > Keyboards > React > Allow Full Access.", comment: "Tutorial")
+        description: NSLocalizedString("Access your pictures from the keyboard! Enable full access for the React Keyboard in Settings > General > Keyboard > Keyboards > React Keyboard > Allow Full Access.", comment: "Tutorial")
     ),
     TutorialPage(
         imageName: "features",
@@ -59,9 +62,9 @@ let tutorialPages = [
         description: NSLocalizedString("Edit, rearrange, and delete boards.", comment: "Tutorial")
     ),
     TutorialPage(
-        imageName: "pro_features",
-        title: NSLocalizedString("Pro Features", comment: ""),
-        description: NSLocalizedString("Upgrade to Pro for iCloud backup, unlimited boards, and an ad-free experience.", comment: "Tutorial")
+        imageName: "features",
+        title: NSLocalizedString("Everything Included", comment: ""),
+        description: NSLocalizedString("Unlimited boards, unlimited photos, and iCloud backup. Free, with no ads.", comment: "Tutorial")
     ),
     TutorialPage(
         imageName: "pictobrowse",

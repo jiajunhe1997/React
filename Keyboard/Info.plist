@@ -20,5 +20,9 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).KeyboardViewController</string>
 	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>React Keyboard</string>
+	<key>CFBundleName</key>
+	<string>React Keyboard</string>
 </dict>
 </plist>

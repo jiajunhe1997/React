@@ -4,7 +4,6 @@ import UIKit
 
 // MARK: - PhotoPicker Wrapper
 struct PhotoPicker: UIViewControllerRepresentable {
-    var isFullVersionPurchased: Bool
     var onImagesPicked: ([UIImage]) -> Void // Update to handle multiple images
     
     func makeCoordinator() -> Coordinator {
@@ -15,11 +14,8 @@ struct PhotoPicker: UIViewControllerRepresentable {
         var configuration = PHPickerConfiguration(photoLibrary: .shared())
         configuration.filter = .images
         
-        if isFullVersionPurchased {
-            configuration.selectionLimit = 0 // No limit for Pro users
-        } else {
-            configuration.selectionLimit = 1 // Limit for free users
-        }
+        configuration.selectionLimit = 0 // Unlimited selection for everyone.
+
 
         let picker = PHPickerViewController(configuration: configuration)
         picker.delegate = context.coordinator

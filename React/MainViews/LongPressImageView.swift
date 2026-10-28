@@ -19,7 +19,8 @@ struct LongPressImageView: View {
                 Rectangle()
                     .fill(Color.black.opacity(isTapped ? 0.3 : 0))
             )
-            .frame(width: 170, height: 170)
+            .frame(maxWidth: .infinity)
+            .aspectRatio(1, contentMode: .fit)
             .shadow(radius: 5)
             .clipped()
             .onTapGesture {
@@ -39,7 +40,8 @@ struct LongPressImageView: View {
                 
                 onCopy()
             }
-            .contextMenu {
+            .overlay(alignment: .topTrailing) {
+                Menu {
                 if !isInTrash {
                     Button(action: onReplace) {
                         Label(NSLocalizedString("Replace", comment: "Replace picture with new one"), systemImage: "photo")
@@ -59,6 +61,14 @@ struct LongPressImageView: View {
                 }) {
                     Label(NSLocalizedString("Zoom", comment: "Zoom into the image"), systemImage: "magnifyingglass")
                 }
+                } label: {
+                    Image(systemName: "ellipsis")
+                        .foregroundStyle(.primary)
+                        .frame(width: 44, height: 44)
+                        .background(.regularMaterial, in: Circle())
+                }
+                .accessibilityLabel("Photo Actions")
+                .padding(4)
             }
             .accessibilityLabel(Text("Image"))
             .fullScreenCover(isPresented: $isZoomed) {

@@ -8,23 +8,95 @@
             "state" : "new",
             "value" : "%1$@: %2$@"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
         }
       },
       "shouldTranslate" : false
     },
-    "+" : {
-      "shouldTranslate" : false
-    },
-    "♬" : {
-      "shouldTranslate" : false
-    },
-    "Access your pictures from the keyboard! Enable full access for the React Keyboard in Settings > General > Keyboard > Keyboards > React > Allow Full Access." : {
-      "comment" : "Tutorial",
+    "Access your pictures from the keyboard! Enable full access for the React Keyboard in Settings > General > Keyboard > Keyboards > React Keyboard > Allow Full Access." : {
+      "extractionState" : "manual",
       "localizations" : {
-        "zh-Hant" : {
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "從鍵盤上查看您的圖片！請在「設定 > 一般 > 鍵盤 > 鍵盤 > React > 允許完整存取」中啟用 React 鍵盤的完整存取權限。"
+            "value" : "कीबोर्ड से अपनी फ़ोटो इस्तेमाल करें! सेटिंग > सामान्य > कीबोर्ड > कीबोर्ड > React Keyboard में पूर्ण ऐक्सेस की अनुमति दें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accédez à vos photos depuis le clavier ! Dans Réglages > Général > Clavier > Claviers > React Keyboard, activez « Autoriser l’accès complet »."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accede a tus fotos desde el teclado. En Ajustes > General > Teclado > Teclados > React Keyboard, activa «Permitir acceso total»."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードから写真を使えます。「設定」＞「一般」＞「キーボード」＞「キーボード」＞「React Keyboard」で「フルアクセスを許可」をオンにしてください。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akses foto dari papan ketik! Di Pengaturan > Umum > Papan Ketik > Papan Ketik > React Keyboard, aktifkan Izinkan Akses Penuh."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accede a tus fotos desde el teclado. En Ajustes > General > Teclado > Teclados > React Keyboard, activa «Permitir acceso total»."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Access your pictures from the keyboard! Enable full access for the React Keyboard in Settings > General > Keyboard > Keyboards > React Keyboard > Allow Full Access."
           }
         }
       }
@@ -43,6 +115,96 @@
             "state" : "translated",
             "value" : "新增"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "जोड़ें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Add Board" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड जोड़ें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un tableau"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir tablero"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードを追加"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah papan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir tablero"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Board"
+          }
         }
       }
     },
@@ -58,25 +220,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Añadir imagen"
+            "value" : "Añadir foto"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Agregar imagen"
+            "value" : "Añadir foto"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "छवि जोड़ें"
+            "value" : "फ़ोटो जोड़ें"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "画像を追加"
+            "value" : "写真を追加"
           }
         },
         "pl" : {
@@ -96,88 +258,173 @@
             "state" : "translated",
             "value" : "新增圖片"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une photo"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah foto"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Image"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Add Images" : {
+      "comment" : "Tutorial",
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो जोड़ें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter des photos"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir fotos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を追加"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah foto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir fotos"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Images"
+          }
         }
       }
     },
-    "Add Images" : {
-      "comment" : "Tutorial"
-    },
     "Add Pics" : {
       "comment" : "Tutorial",
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "新增圖片"
           }
-        }
-      }
-    },
-    "All Pics, No Ads! Upgrade to Unlock Unlimited Boards, Images, and iCloud Backup." : {
-      "localizations" : {
-        "zh-Hans" : {
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "全部图片，无广告！升级以解锁无限面板和 iCloud 备份。"
+            "value" : "फ़ोटो जोड़ें"
           }
         },
-        "zh-Hant" : {
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "只有圖片沒有廣告！升級以解鎖無限看板、圖片和 iCloud 備份。"
-          }
-        }
-      }
-    },
-    "Backing up to iCloud..." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sicherung auf iCloud wird erstellt..."
+            "value" : "Ajouter des photos"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Realizando copia de seguridad en iCloud…"
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Haciendo copia de seguridad en iCloud..."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud पर बैकअप लिया जा रहा है…"
+            "value" : "Añadir fotos"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "iCloudにバックアップ中…"
+            "value" : "写真を追加"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trwa tworzenie kopii zapasowej w iCloud…"
+            "value" : "Tambah foto"
           }
         },
-        "zh-Hans" : {
+        "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在备份至 iCloud…"
+            "value" : "Añadir fotos"
           }
         },
-        "zh-Hant" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在備份至 iCloud…"
+            "value" : "Add Pics"
+          }
+        }
+      }
+    },
+    "Add photos to a board in React to get started." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "शुरू करने के लिए React में किसी बोर्ड पर फ़ोटो जोड़ें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour commencer, ajoutez des photos à un tableau dans React."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para empezar, añade fotos a un tablero en React."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まずReactでボードに写真を追加してください。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambahkan foto ke papan di React untuk memulai."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para empezar, añade fotos a un tablero en React."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add photos to a board in React to get started."
           }
         }
       }
@@ -193,19 +440,19 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Haciendo copia de seguridad…"
+            "value" : "Guardando copia…"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Haciendo copia de seguridad..."
+            "value" : "Guardando copia…"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "बैकअप लिया जा रहा है…"
+            "value" : "बैकअप हो रहा है..."
           }
         },
         "ja" : {
@@ -231,8 +478,98 @@
             "state" : "translated",
             "value" : "正在備份…"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauvegarde en cours…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mencadangkan…"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backing Up..."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
+    },
+    "Backing up to iCloud..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sicherung auf iCloud wird erstellt..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardando copia en iCloud…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardando copia en iCloud…"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud पर बैकअप हो रहा है..."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloudにバックアップ中…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trwa tworzenie kopii zapasowej w iCloud…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在备份至 iCloud…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在備份至 iCloud…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauvegarde sur iCloud…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mencadangkan ke iCloud…"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backing up to iCloud..."
+          }
+        }
+      },
+      "extractionState" : "manual"
     },
     "Backup failed: %@" : {
       "localizations" : {
@@ -245,13 +582,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Error en la copia de seguridad: %@"
+            "value" : "Error al crear la copia: %@"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Falló la copia de seguridad: %@"
+            "value" : "Error al crear la copia: %@"
           }
         },
         "hi" : {
@@ -263,7 +600,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "バックアップに失敗しました: %@"
+            "value" : "バックアップに失敗しました：%@"
           }
         },
         "pl" : {
@@ -283,8 +620,27 @@
             "state" : "translated",
             "value" : "備份失敗：%@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de la sauvegarde : %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pencadangan gagal: %@"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup failed: %@"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Backup to iCloud completed." : {
       "localizations" : {
@@ -297,13 +653,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copia de seguridad en iCloud completada."
+            "value" : "Copia en iCloud completada."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copia de seguridad en iCloud completada."
+            "value" : "Copia en iCloud completada."
           }
         },
         "hi" : {
@@ -335,8 +691,27 @@
             "state" : "translated",
             "value" : "已完成 iCloud 備份。"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauvegarde sur iCloud terminée."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pencadangan ke iCloud selesai."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup to iCloud completed."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Board %d" : {
       "comment" : "Name of new boards with numbers",
@@ -388,8 +763,27 @@
             "state" : "translated",
             "value" : "圖板 %d"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tableau %d"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan %d"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Board %d"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Board renamed successfully." : {
       "localizations" : {
@@ -402,25 +796,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El tablero se ha renombrado correctamente."
+            "value" : "Se ha cambiado el nombre del tablero."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tablero renombrado con éxito."
+            "value" : "Se ha cambiado el nombre del tablero."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "बोर्ड का नाम सफलतापूर्वक बदला गया।"
+            "value" : "बोर्ड का नाम बदल दिया गया।"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ボード名の変更が完了しました。"
+            "value" : "ボード名を変更しました。"
           }
         },
         "pl" : {
@@ -440,6 +834,72 @@
             "state" : "translated",
             "value" : "圖板重新命名成功。"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le tableau a été renommé."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama papan berhasil diubah."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Board renamed successfully."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Boards" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tableaux"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tableros"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボード"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tableros"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boards"
+          }
         }
       }
     },
@@ -451,8 +911,51 @@
             "state" : "translated",
             "value" : "直接從應用程式瀏覽並新增熱門音效！播放並分享任何聲音給您的朋友。"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप से लोकप्रिय ध्वनियाँ और साउंड इफ़ेक्ट खोजें और जोड़ें! ध्वनियाँ चलाएँ और दोस्तों के साथ साझा करें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrez et ajoutez des sons et effets sonores populaires depuis l’app ! Écoutez-les et partagez-les avec vos amis."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explora y añade sonidos y efectos populares desde la app. Reprodúcelos y compártelos con tus amigos."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリで人気の音声や効果音を探して追加できます。再生して友達と共有しましょう。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jelajahi dan tambahkan suara serta efek suara populer langsung dari aplikasi! Putar dan bagikan dengan teman."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explora y añade sonidos y efectos populares desde la app. Reprodúcelos y compártelos con tus amigos."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Browse and add trending sounds and SFX directly from the app! Play and share any sounds with your friend."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Can't delete the last board!" : {
       "localizations" : {
@@ -465,25 +968,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡No se puede eliminar el último tablero!"
+            "value" : "No se puede eliminar el último tablero."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡No se puede eliminar el último tablero!"
+            "value" : "No se puede eliminar el último tablero."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "आखिरी बोर्ड को डिलीट नहीं कर सकते!"
+            "value" : "आखिरी बोर्ड नहीं मिटाया जा सकता!"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "最後のボードは削除できません！"
+            "value" : "最後のボードは削除できません。"
           }
         },
         "pl" : {
@@ -503,11 +1006,30 @@
             "state" : "translated",
             "value" : "無法刪除最後一個圖板！"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de supprimer le dernier tableau !"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan terakhir tidak dapat dihapus!"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't delete the last board!"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Cancel" : {
-      "comment" : "Cancel board rearrangemet\nCancel button\nClipboard Paste\nPaste to Clipboard alert",
+      "comment" : "Cancel button\nClipboard Paste\nPaste to Clipboard alert",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -556,8 +1078,27 @@
             "state" : "translated",
             "value" : "取消"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Clear Trash" : {
       "localizations" : {
@@ -582,7 +1123,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "कचरा साफ करें"
+            "value" : "ट्रैश खाली करें"
           }
         },
         "ja" : {
@@ -608,8 +1149,27 @@
             "state" : "translated",
             "value" : "清空垃圾桶"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vider la corbeille"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kosongkan sampah"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear Trash"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Close" : {
       "comment" : "Close storage usage dialogue",
@@ -661,6 +1221,72 @@
             "state" : "translated",
             "value" : "關閉"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Copied · Touch and hold the message field to paste" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कॉपी हो गया · पेस्ट करने के लिए संदेश फ़ील्ड को दबाकर रखें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copié · Maintenez le champ de message pour coller"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiado · Mantén pulsado el campo del mensaje para pegar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーしました・入力欄を長押ししてペースト"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disalin · Sentuh dan tahan kolom pesan untuk menempel"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiado · Mantén pulsado el campo del mensaje para pegar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copied · Touch and hold the message field to paste"
+          }
         }
       }
     },
@@ -671,6 +1297,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "複製圖片"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो कॉपी करें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copier des photos"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar fotos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真をコピー"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salin foto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar fotos"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy Pics"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Copy photo %d" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो %d कॉपी करें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copier la photo %d"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar foto %d"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真%dをコピー"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salin foto %d"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar foto %d"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy photo %d"
           }
         }
       }
@@ -699,7 +1415,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "हटाएं"
+            "value" : "मिटाएँ"
           }
         },
         "ja" : {
@@ -725,8 +1441,27 @@
             "state" : "translated",
             "value" : "刪除"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Delete Board" : {
       "localizations" : {
@@ -751,7 +1486,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "बोर्ड हटाएं"
+            "value" : "बोर्ड मिटाएँ"
           }
         },
         "ja" : {
@@ -777,8 +1512,27 @@
             "state" : "translated",
             "value" : "刪除圖版"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer le tableau"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus papan"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Board"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Delete Permanently" : {
       "comment" : "Permanently delete from trash",
@@ -798,19 +1552,19 @@
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eliminar permanentemente"
+            "value" : "Eliminar definitivamente"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "स्थायी रूप से हटाएं"
+            "value" : "हमेशा के लिए मिटाएँ"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "完全に削除する"
+            "value" : "完全に削除"
           }
         },
         "pl" : {
@@ -830,6 +1584,72 @@
             "state" : "translated",
             "value" : "永久刪除"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer définitivement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus permanen"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Permanently"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Deleted photos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मिटाई गई फ़ोटो"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos supprimées"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos eliminadas"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除した写真"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto yang dihapus"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos eliminadas"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deleted photos"
+          }
         }
       }
     },
@@ -840,8 +1660,51 @@
             "state" : "translated",
             "value" : "發現"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "खोजें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrir"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descubrir"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見つける"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jelajahi"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descubrir"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Done" : {
       "comment" : "Save board rearrangement",
@@ -855,7 +1718,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hecho"
+            "value" : "Listo"
           }
         },
         "es-419" : {
@@ -893,8 +1756,27 @@
             "state" : "translated",
             "value" : "完成"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Download completed successfully." : {
       "localizations" : {
@@ -907,25 +1789,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descarga completada correctamente."
+            "value" : "Descarga completada."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descarga completada con éxito."
+            "value" : "Descarga completada."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "डाउनलोड सफलतापूर्वक पूरा हुआ।"
+            "value" : "डाउनलोड पूरा हुआ।"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ダウンロードが正常に完了しました。"
+            "value" : "ダウンロードが完了しました。"
           }
         },
         "pl" : {
@@ -945,8 +1827,27 @@
             "state" : "translated",
             "value" : "下載完成"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléchargement terminé."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unduhan selesai."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download completed successfully."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Download from iCloud" : {
       "localizations" : {
@@ -959,13 +1860,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descargar desde iCloud"
+            "value" : "Descargar de iCloud"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Descargar desde iCloud"
+            "value" : "Descargar de iCloud"
           }
         },
         "hi" : {
@@ -997,6 +1898,72 @@
             "state" : "translated",
             "value" : "從iCloud下載"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger depuis iCloud"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unduh dari iCloud"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download from iCloud"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Drag the handles to arrange your boards. Trash stays at the end." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड का क्रम बदलने के लिए हैंडल खींचें। ट्रैश सबसे अंत में रहेगा।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faites glisser les poignées pour réorganiser vos tableaux. La corbeille reste à la fin."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrastra los tiradores para ordenar los tableros. La papelera permanece al final."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハンドルをドラッグしてボードを並べ替えます。ゴミ箱は最後に固定されます。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seret pegangan untuk mengatur urutan papan. Sampah tetap di akhir."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrastra los tiradores para ordenar los tableros. La papelera permanece al final."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drag the handles to arrange your boards. Trash stays at the end."
+          }
         }
       }
     },
@@ -1008,8 +1975,51 @@
             "state" : "translated",
             "value" : "編輯、重新排列和刪除看板。"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड में बदलाव करें, क्रम बदलें और मिटाएँ।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifiez, réorganisez et supprimez vos tableaux."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edita, reorganiza y elimina tableros."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードの編集、並べ替え、削除ができます。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit, atur ulang, dan hapus papan."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edita, reorganiza y elimina tableros."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit, rearrange, and delete boards."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Editing Boards" : {
       "comment" : "Tutorial",
@@ -1019,8 +2029,51 @@
             "state" : "translated",
             "value" : "編輯圖板"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड में बदलाव"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier les tableaux"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar tableros"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードの編集"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengedit papan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar tableros"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editing Boards"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Empty boards deleted successfully." : {
       "localizations" : {
@@ -1028,6 +2081,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "成功刪除空白圖板。"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "खाली बोर्ड मिटा दिए गए।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les tableaux vides ont été supprimés."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se han eliminado los tableros vacíos."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空のボードを削除しました。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan kosong berhasil dihapus."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se han eliminado los tableros vacíos."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty boards deleted successfully."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Enable Allow Full Access in Keyboard Settings to copy photos." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो कॉपी करने के लिए कीबोर्ड सेटिंग में पूर्ण ऐक्सेस की अनुमति दें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activez « Autoriser l’accès complet » dans les réglages du clavier pour copier des photos."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activa «Permitir acceso total» en los ajustes del teclado para copiar fotos."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真をコピーするには、キーボード設定で「フルアクセスを許可」をオンにしてください。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktifkan Izinkan Akses Penuh di pengaturan papan ketik untuk menyalin foto."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activa «Permitir acceso total» en los ajustes del teclado para copiar fotos."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Allow Full Access in Keyboard Settings to copy photos."
           }
         }
       }
@@ -1039,8 +2182,51 @@
             "state" : "translated",
             "value" : "錯誤"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "त्रुटि"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エラー"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesalahan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Error calculating storage used: " : {
       "comment" : "skip",
@@ -1048,23 +2234,242 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "भंडारण की गणना में त्रुटि: "
+            "value" : "इस्तेमाल की गई जगह की गणना में त्रुटि: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur de calcul du stockage utilisé : "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al calcular el almacenamiento usado: "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用容量の計算エラー："
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menghitung penyimpanan terpakai: "
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al calcular el almacenamiento usado: "
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error calculating storage used: "
           }
         }
       },
-      "shouldTranslate" : false
+      "shouldTranslate" : false,
+      "extractionState" : "manual"
     },
     "Error deleting image file: " : {
       "comment" : "skip",
-      "shouldTranslate" : false
+      "shouldTranslate" : false,
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो फ़ाइल मिटाने में त्रुटि: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur de suppression de la photo : "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al eliminar la foto: "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像ファイルの削除エラー："
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menghapus berkas foto: "
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al eliminar la foto: "
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error deleting image file: "
+          }
+        }
+      }
     },
     "Error loading boards: " : {
       "comment" : "skip",
-      "shouldTranslate" : false
+      "shouldTranslate" : false,
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड लोड करने में त्रुटि: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur de chargement des tableaux : "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al cargar los tableros: "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードの読み込みエラー："
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal memuat papan: "
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al cargar los tableros: "
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error loading boards: "
+          }
+        }
+      }
     },
     "Error saving boards: " : {
       "comment" : "skip",
-      "shouldTranslate" : false
+      "shouldTranslate" : false,
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड सहेजने में त्रुटि: "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur d’enregistrement des tableaux : "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al guardar los tableros: "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードの保存エラー："
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menyimpan papan: "
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error al guardar los tableros: "
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error saving boards: "
+          }
+        }
+      }
+    },
+    "Everything Included" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सब कुछ शामिल है"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout est inclus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo incluido"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての機能を利用可能"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua fitur tersedia"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo incluido"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything Included"
+          }
+        }
+      }
     },
     "Explore React Sounds!" : {
       "localizations" : {
@@ -1072,6 +2477,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "探索 React 音效！"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React की ध्वनियाँ खोजें!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrez les sons React !"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Descubre los sonidos de React!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reactの音声を楽しもう！"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jelajahi suara React!"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Descubre los sonidos de React!"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore React Sounds!"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Failed to delete empty boards: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "खाली बोर्ड मिटाए नहीं जा सके: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de supprimer les tableaux vides : %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudieron eliminar los tableros vacíos: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空のボードを削除できませんでした：%@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menghapus papan kosong: %@"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudieron eliminar los tableros vacíos: %@"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to delete empty boards: %@"
           }
         }
       }
@@ -1082,6 +2577,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "圖片加載失敗"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो लोड नहीं हो सकी"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de charger la photo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo cargar la foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を読み込めませんでした"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal memuat foto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo cargar la foto"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to load image"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Failed to prepare audio file for sharing." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऑडियो फ़ाइल साझा करने के लिए तैयार नहीं हो सकी।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de préparer le fichier audio pour le partage."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo preparar el archivo de audio para compartirlo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有する音声ファイルを準備できませんでした。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menyiapkan berkas audio untuk dibagikan."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo preparar el archivo de audio para compartirlo."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to prepare audio file for sharing."
           }
         }
       }
@@ -1097,25 +2682,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No se pudo guardar la imagen."
+            "value" : "No se pudo guardar la foto."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No se pudo guardar la imagen."
+            "value" : "No se pudo guardar la foto."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "छवि सहेजने में विफल."
+            "value" : "फ़ोटो सहेजी नहीं जा सकी।"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "画像を保存できませんでした。"
+            "value" : "写真を保存できませんでした。"
           }
         },
         "pl" : {
@@ -1135,6 +2720,72 @@
             "state" : "translated",
             "value" : "無法儲存圖片"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible d’enregistrer la photo."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal menyimpan foto."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to save image."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Favorite" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पसंदीदा"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favori"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorito"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お気に入り"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorito"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorite"
+          }
         }
       }
     },
@@ -1145,8 +2796,51 @@
             "state" : "translated",
             "value" : "收藏"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पसंदीदा"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoris"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お気に入り"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritos"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorites"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Get Started" : {
       "comment" : "Button label for finishing the tutorial and starting the app",
@@ -1156,8 +2850,51 @@
             "state" : "translated",
             "value" : "開始使用"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "शुरू करें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Greeting" : {
       "comment" : "Default Board name 2",
@@ -1167,164 +2904,51 @@
             "state" : "translated",
             "value" : "早安圖"
           }
-        }
-      }
-    },
-    "iCloud backup is available for Pro users only." : {
-      "localizations" : {
-        "de" : {
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "iCloud-Backup ist nur für Pro-Nutzer verfügbar."
+            "value" : "शुभकामनाएँ"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salutations"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La copia de seguridad en iCloud está disponible solo para usuarios Pro."
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La copia de seguridad en iCloud está disponible solo para usuarios Pro."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud बैकअप केवल प्रो उपयोगकर्ताओं के लिए उपलब्ध है।"
+            "value" : "Saludos"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "iCloudバックアップはProユーザーのみ利用可能です。"
+            "value" : "あいさつ"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kopia zapasowa iCloud jest dostępna tylko dla użytkowników Pro."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud 备份仅限 Pro 用户。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud 備份僅限 Pro 用戶。"
-          }
-        }
-      }
-    },
-    "iCloud container not found." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud-Container nicht gefunden."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contenedor de iCloud no encontrado."
+            "value" : "Salam"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Contenedor de iCloud no encontrado."
+            "value" : "Saludos"
           }
         },
-        "hi" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "iCloud कंटेनर नहीं मिला।"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloudコンテナが見つかりません。"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nie znaleziono kontenera iCloud."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "找不到 iCloud 容器。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "找不到 iCloud 容器。"
+            "value" : "Greeting"
           }
         }
-      }
-    },
-    "iCloud is not available." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud ist nicht verfügbar."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud no está disponible."
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud no está disponible."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud उपलब्ध नहीं है।"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloudは利用できません。"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "iCloud jest niedostępne."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "找不到 iCloud。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "找不到iCloud。"
-          }
-        }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Image" : {
       "localizations" : {
@@ -1337,25 +2961,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imagen"
+            "value" : "Foto"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imagen"
+            "value" : "Foto"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "इमेज"
+            "value" : "फ़ोटो"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "画像"
+            "value" : "写真"
           }
         },
         "pl" : {
@@ -1375,8 +2999,27 @@
             "state" : "translated",
             "value" : "圖片"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Image copied to clipboard" : {
       "localizations" : {
@@ -1389,25 +3032,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imagen copiada al portapapeles."
+            "value" : "Foto copiada al portapapeles"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imagen copiada al portapapeles"
+            "value" : "Foto copiada al portapapeles"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "इमेज क्लिपबोर्ड पर कॉपी की गई।"
+            "value" : "फ़ोटो क्लिपबोर्ड पर कॉपी की गई"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "画像がクリップボードにコピーされました。"
+            "value" : "写真をクリップボードにコピーしました"
           }
         },
         "pl" : {
@@ -1427,8 +3070,27 @@
             "state" : "translated",
             "value" : "已複製圖片"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo copiée dans le presse-papiers"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto disalin ke papan klip"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image copied to clipboard"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Invalid board selected." : {
       "localizations" : {
@@ -1441,25 +3103,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tablero seleccionado no válido."
+            "value" : "El tablero seleccionado no es válido."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tablero no válido seleccionado."
+            "value" : "El tablero seleccionado no es válido."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "अमान्य बोर्ड चुना गया है।"
+            "value" : "चुना गया बोर्ड उपलब्ध नहीं है।"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "無効なボードが選択されました。"
+            "value" : "選択したボードは無効です。"
           }
         },
         "pl" : {
@@ -1479,8 +3141,27 @@
             "state" : "translated",
             "value" : "選擇了無效的圖板。"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le tableau sélectionné n’est pas valide."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan yang dipilih tidak valid."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid board selected."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Invalid image selected." : {
       "localizations" : {
@@ -1493,25 +3174,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imagen seleccionada no válida."
+            "value" : "La foto seleccionada no es válida."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Imagen no válida seleccionada."
+            "value" : "La foto seleccionada no es válida."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "अमान्य इमेज चुनी गई है।"
+            "value" : "चुनी गई फ़ोटो उपलब्ध नहीं है।"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "無効な画像が選択されました。"
+            "value" : "選択した写真は無効です。"
           }
         },
         "pl" : {
@@ -1531,6 +3212,72 @@
             "state" : "translated",
             "value" : "選擇了無效的圖片。"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La photo sélectionnée n’est pas valide."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto yang dipilih tidak valid."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid image selected."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Loading boards…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड लोड हो रहे हैं…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chargement des tableaux…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando tableros…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードを読み込み中…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memuat papan…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando tableros…"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading boards…"
+          }
         }
       }
     },
@@ -1542,8 +3289,51 @@
             "state" : "translated",
             "value" : "迷因"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मीम्स"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mèmes"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミーム"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meme"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memes"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memes"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Menu" : {
       "localizations" : {
@@ -1568,7 +3358,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "मेनू"
+            "value" : "मेन्यू"
           }
         },
         "ja" : {
@@ -1594,6 +3384,213 @@
             "state" : "translated",
             "value" : "選單"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Move Down" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नीचे ले जाएँ"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déplacer vers le bas"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover hacia abajo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下に移動"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindahkan ke bawah"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover hacia abajo"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move Down"
+          }
+        }
+      }
+    },
+    "Move Up" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऊपर ले जाएँ"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déplacer vers le haut"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover hacia arriba"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上に移動"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindahkan ke atas"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover hacia arriba"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move Up"
+          }
+        }
+      }
+    },
+    "Move earlier" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पहले ले जाएँ"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déplacer avant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover antes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前に移動"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindahkan lebih awal"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover antes"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move earlier"
+          }
+        }
+      }
+    },
+    "Move later" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बाद में ले जाएँ"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Déplacer après"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover después"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "後ろに移動"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindahkan lebih akhir"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover después"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move later"
+          }
         }
       }
     },
@@ -1605,8 +3602,51 @@
             "state" : "translated",
             "value" : "最新"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नया"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveautés"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新着"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baru"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevos"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "New Board Name" : {
       "comment" : "text field hint in rename board dialogue",
@@ -1626,13 +3666,13 @@
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nuevo nombre de tablero"
+            "value" : "Nuevo nombre del tablero"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "नया बोर्ड नाम"
+            "value" : "बोर्ड का नया नाम"
           }
         },
         "ja" : {
@@ -1658,8 +3698,27 @@
             "state" : "translated",
             "value" : "新板名"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau nom du tableau"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama papan baru"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Board Name"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Next" : {
       "comment" : "Button label for moving to the next tutorial page",
@@ -1669,57 +3728,95 @@
             "state" : "translated",
             "value" : "下一步"
           }
-        }
-      }
-    },
-    "No purchases to restore." : {
-      "localizations" : {
-        "de" : {
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Keine Käufe wiederherzustellen."
+            "value" : "अगला"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No hay compras para restaurar."
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No hay compras para restaurar."
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "पुनर्स्थापित करने के लिए कोई खरीदारी नहीं है।"
+            "value" : "Siguiente"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "復元する購入はありません。"
+            "value" : "次へ"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Brak zakupów do przywrócenia."
+            "value" : "Berikutnya"
           }
         },
-        "zh-Hans" : {
+        "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "您没购买过React"
+            "value" : "Siguiente"
           }
         },
-        "zh-Hant" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "您沒購買過React"
+            "value" : "Next"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Next Keyboard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अगला कीबोर्ड"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clavier suivant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente teclado"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次のキーボード"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan ketik berikutnya"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente teclado"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next Keyboard"
           }
         }
       }
@@ -1731,6 +3828,96 @@
             "state" : "translated",
             "value" : "確定"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ठीक है"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aceptar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aceptar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Open React to set up your shared boards." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "साझा बोर्ड सेट अप करने के लिए React खोलें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrez React pour configurer vos tableaux partagés."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre React para configurar tus tableros compartidos."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reactを開いて共有ボードを設定してください。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka React untuk menyiapkan papan bersama."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre React para configurar tus tableros compartidos."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open React to set up your shared boards."
+          }
         }
       }
     },
@@ -1741,8 +3928,51 @@
             "state" : "translated",
             "value" : "隨處貼上"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कहीं भी पेस्ट करें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coller partout"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pegar en cualquier lugar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どこでもペースト"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempel di mana saja"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pegar en cualquier lugar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste Anywhere"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Paste in any text messenger. Send." : {
       "comment" : "Tutorial",
@@ -1751,6 +3981,143 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在任何通訊軟體中貼上並傳送。"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "किसी भी मैसेजिंग ऐप में पेस्ट करें और भेजें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collez dans une messagerie, puis envoyez."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pega en una app de mensajería y envía."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メッセージアプリにペーストして送信しましょう。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempel di aplikasi pesan, lalu kirim."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pega en una app de mensajería y envía."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste in any text messenger. Send."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Pause" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रोकें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一時停止"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeda"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
+          }
+        }
+      }
+    },
+    "Photo Actions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो के विकल्प"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actions de la photo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acciones de la foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真の操作"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tindakan foto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acciones de la foto"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo Actions"
           }
         }
       }
@@ -1763,12 +4130,55 @@
             "state" : "translated",
             "value" : "挑選並新增多張圖片至看板。"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "एक साथ कई फ़ोटो चुनकर बोर्ड में जोड़ें।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionnez plusieurs photos et ajoutez-les à un tableau."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona varias fotos y añádelas a un tablero."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "複数の写真を選んでボードに追加できます。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih dan tambahkan beberapa foto ke papan."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona varias fotos y añádelas a un tablero."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick and add multiple pictures to a board."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "PictoKeyBoard" : {
       "comment" : "Tutorial",
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1781,188 +4191,194 @@
             "state" : "translated",
             "value" : "React 鍵盤"
           }
-        }
-      }
-    },
-    "Pro Activated" : {
-      "localizations" : {
-        "de" : {
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pro aktiviert"
+            "value" : "React Keyboard"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pro activado"
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pro activado"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "प्रो सक्रिय किया गया है।"
+            "value" : "React Keyboard"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Proが有効になりました。"
+            "value" : "React Keyboard"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pro zostało aktywowane."
+            "value" : "React Keyboard"
           }
         },
-        "zh-Hans" : {
+        "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在使用专业版"
+            "value" : "React Keyboard"
           }
         },
-        "zh-Hant" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在使用專業版"
+            "value" : "PictoKeyBoard"
           }
         }
       }
     },
-    "Pro Features" : {
+    "Play" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "zh-Hant" : {
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "專業版功能"
+            "value" : "चलाएँ"
           }
-        }
-      }
-    },
-    "Purchase failed: " : {
-      "comment" : "Comment",
-      "localizations" : {
-        "de" : {
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kauf fehlgeschlagen:"
+            "value" : "Lire"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Error en la compra:"
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Falló la compra:"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "खरीदारी विफल:"
+            "value" : "Reproducir"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "購入に失敗しました："
+            "value" : "再生"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zakup nieudany:"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "购买失败："
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "購買失敗："
-          }
-        }
-      }
-    },
-    "Purchases restored successfully." : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Käufe erfolgreich wiederhergestellt."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Compras restauradas correctamente."
+            "value" : "Putar"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Compras restauradas con éxito."
+            "value" : "Reproducir"
           }
         },
-        "hi" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "खरीदारी सफलतापूर्वक पुनर्स्थापित की गई है।"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "購入が正常に復元されました。"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zakupy zostały pomyślnie przywrócone."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功恢复购买。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功恢復購買。"
+            "value" : "Play"
           }
         }
       }
     },
     "React KeyBoard" : {
-      "comment" : "Tutorial"
-    },
-    "React Lite" : {
-      "shouldTranslate" : false
-    },
-    "React Pro 👑" : {
-      "shouldTranslate" : false
+      "comment" : "Tutorial",
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React Keyboard"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React KeyBoard"
+          }
+        }
+      }
     },
     "Reaction" : {
       "comment" : "Default Board name 1",
-      "shouldTranslate" : false
+      "shouldTranslate" : false,
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रतिक्रिया"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réactions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reacciones"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リアクション"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reaksi"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reacciones"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reaction"
+          }
+        }
+      }
     },
     "Rearrange Boards" : {
       "localizations" : {
@@ -1987,7 +4403,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "बोर्ड्स पुनर्व्यवस्थित करें"
+            "value" : "बोर्ड का क्रम बदलें"
           }
         },
         "ja" : {
@@ -2013,8 +4429,27 @@
             "state" : "translated",
             "value" : "重新排列圖板"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réorganiser les tableaux"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atur ulang papan"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rearrange Boards"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Rename Board" : {
       "localizations" : {
@@ -2027,13 +4462,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renombrar tablero"
+            "value" : "Cambiar nombre del tablero"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renombrar tablero"
+            "value" : "Cambiar nombre del tablero"
           }
         },
         "hi" : {
@@ -2045,7 +4480,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ボードの名前を変更"
+            "value" : "ボード名を変更"
           }
         },
         "pl" : {
@@ -2065,8 +4500,27 @@
             "state" : "translated",
             "value" : "重命名圖板"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renommer le tableau"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah nama papan"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename Board"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Replace" : {
       "comment" : "Replace picture with new one",
@@ -2098,7 +4552,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "置き換える"
+            "value" : "置き換え"
           }
         },
         "pl" : {
@@ -2118,60 +4572,27 @@
             "state" : "translated",
             "value" : "替換"
           }
-        }
-      }
-    },
-    "Restore Purchases" : {
-      "localizations" : {
-        "de" : {
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Käufe wiederherstellen"
+            "value" : "Remplacer"
           }
         },
-        "es" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Restaurar compras"
+            "value" : "Ganti"
           }
         },
-        "es-419" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Restaurar compras"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "खरीदारी पुनर्स्थापित करें"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "購入を復元"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Przywróć zakupy"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "恢复购买"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "恢復購買"
+            "value" : "Replace"
           }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Save" : {
       "comment" : "save new board name and rename it",
@@ -2223,8 +4644,27 @@
             "state" : "translated",
             "value" : "保存"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Search by title..." : {
       "comment" : "Search bar placeholder",
@@ -2234,8 +4674,51 @@
             "state" : "translated",
             "value" : "按標題搜尋…"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "शीर्षक से खोजें..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher par titre…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar por título…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイトルで検索…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cari berdasarkan judul…"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar por título…"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search by title..."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Select Board" : {
       "comment" : "Clipboard Paste",
@@ -2244,6 +4727,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "選擇圖板"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बोर्ड चुनें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisir un tableau"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar tablero"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボードを選択"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih papan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar tablero"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select Board"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Select a Board to Save Image" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो सहेजने के लिए बोर्ड चुनें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez un tableau pour enregistrer la photo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona un tablero para guardar la foto"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を保存するボードを選択"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih papan untuk menyimpan foto"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona un tablero para guardar la foto"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a Board to Save Image"
           }
         }
       }
@@ -2255,6 +4828,96 @@
             "state" : "translated",
             "value" : "透過React 發送"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React से भेजा गया"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envoyé avec React"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviado con React"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reactから送信"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dikirim dengan React"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviado con React"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sent with React"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Share" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "साझा करें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
         }
       }
     },
@@ -2265,11 +4928,145 @@
             "state" : "translated",
             "value" : "排序方式"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "क्रम"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trier par"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordenar por"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "並べ替え"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urutkan menurut"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordenar por"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sort by"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Sound" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ध्वनि"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sons"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonidos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サウンド"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suara"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonidos"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound"
+          }
         }
       }
     },
     "Sounds" : {
-
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ध्वनियाँ"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sons"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonidos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サウンド"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suara"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonidos"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sounds"
+          }
+        }
+      }
     },
     "Start Reacting with your pictures and memes!" : {
       "comment" : "Tutorial: App Store Slogan",
@@ -2279,8 +5076,51 @@
             "state" : "translated",
             "value" : "開始用您的圖片和迷因回覆訊息！"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपनी फ़ोटो और मीम्स से प्रतिक्रिया दें!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réagissez avec vos photos et vos mèmes !"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Reacciona con tus fotos y memes!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真やミームでリアクションしよう！"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berekspresilah dengan foto dan meme Anda!"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Reacciona con tus fotos y memes!"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Reacting with your pictures and memes!"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Storage Usage" : {
       "localizations" : {
@@ -2293,19 +5133,19 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uso de almacenamiento"
+            "value" : "Almacenamiento usado"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uso de almacenamiento"
+            "value" : "Almacenamiento usado"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "भंडारण उपयोग"
+            "value" : "इस्तेमाल की गई जगह"
           }
         },
         "ja" : {
@@ -2331,8 +5171,27 @@
             "state" : "translated",
             "value" : "使用空間"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stockage utilisé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penggunaan penyimpanan"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Storage Usage"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Syncing with iCloud..." : {
       "localizations" : {
@@ -2345,19 +5204,19 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sincronizando con iCloud..."
+            "value" : "Sincronizando con iCloud…"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sincronizando con iCloud..."
+            "value" : "Sincronizando con iCloud…"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "iCloud के साथ सिंक हो रहा है…"
+            "value" : "iCloud से सिंक हो रहा है..."
           }
         },
         "ja" : {
@@ -2383,8 +5242,27 @@
             "state" : "translated",
             "value" : "正在與 iCloud 同步…"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronisation avec iCloud…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menyinkronkan dengan iCloud…"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syncing with iCloud..."
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Tap to copy a picture" : {
       "comment" : "Tutorial",
@@ -2393,6 +5271,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "點擊以複製圖片"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ोटो कॉपी करने के लिए टैप करें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez une photo pour la copier"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca una foto para copiarla"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真をタップしてコピー"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk foto untuk menyalinnya"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca una foto para copiarla"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to copy a picture"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Tap to copy · Hold and drag to rearrange" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कॉपी करने के लिए टैप करें · क्रम बदलने के लिए दबाकर खींचें"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez pour copier · Maintenez et faites glisser pour réorganiser"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para copiar · Mantén pulsado y arrastra para ordenar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップでコピー・長押ししてドラッグで並べ替え"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk menyalin · Tahan dan seret untuk mengatur urutan"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para copiar · Mantén pulsado y arrastra para ordenar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to copy · Hold and drag to rearrange"
           }
         }
       }
@@ -2404,15 +5372,95 @@
             "state" : "translated",
             "value" : "感謝您支持 React"
           }
-        }
-      }
-    },
-    "Thank you for supporting React Pro!" : {
-      "localizations" : {
-        "zh-Hant" : {
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "感謝您支持 React Pro！"
+            "value" : "React का समर्थन करने के लिए धन्यवाद"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merci de soutenir React"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gracias por apoyar React"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reactをご支援いただきありがとうございます"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terima kasih telah mendukung React"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gracias por apoyar React"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thank you for supporting React"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "This board has no photos yet." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इस बोर्ड में अभी कोई फ़ोटो नहीं है।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce tableau ne contient pas encore de photos."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este tablero aún no tiene fotos."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このボードにはまだ写真がありません。"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan ini belum memiliki foto."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este tablero aún no tiene fotos."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This board has no photos yet."
           }
         }
       }
@@ -2424,8 +5472,51 @@
             "state" : "translated",
             "value" : "置頂"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "शीर्ष"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les plus aimés"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destacados"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人気"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teratas"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destacados"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Total Storage Used: %@" : {
       "localizations" : {
@@ -2438,25 +5529,25 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Almacenamiento total utilizado: %@"
+            "value" : "Almacenamiento total usado: %@"
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Almacenamiento total utilizado: %@"
+            "value" : "Almacenamiento total usado: %@"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "कुल भंडारण उपयोग: %@"
+            "value" : "कुल इस्तेमाल की गई जगह: %@"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "合計ストレージ使用量: %@"
+            "value" : "合計使用容量：%@"
           }
         },
         "pl" : {
@@ -2476,8 +5567,27 @@
             "state" : "translated",
             "value" : "總存儲用量：%@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stockage total utilisé : %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total penyimpanan terpakai: %@"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Storage Used: %@"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Trash" : {
       "comment" : "Trash Category Name",
@@ -2529,8 +5639,27 @@
             "state" : "translated",
             "value" : "垃圾桶"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corbeille"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sampah"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trash"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Trending" : {
       "comment" : "Sort by trending items",
@@ -2540,289 +5669,95 @@
             "state" : "translated",
             "value" : "熱門"
           }
-        }
-      }
-    },
-    "Unlock" : {
-      "comment" : "In Purchase Prompt",
-      "localizations" : {
-        "de" : {
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Freischalten"
+            "value" : "लोकप्रिय"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendances"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desbloquear"
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Desbloquear"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "अनलॉक करें"
+            "value" : "Tendencias"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "アンロック"
+            "value" : "トレンド"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Odblokuj"
+            "value" : "Populer"
           }
         },
-        "zh-Hans" : {
+        "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "解锁"
+            "value" : "Tendencias"
           }
         },
-        "zh-Hant" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "解鎖"
+            "value" : "Trending"
           }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
-    "Unlock unlimited boards, unlimited pictures, and iCloud backup!" : {
-      "comment" : "In Purchase Prompt",
+    "Unlimited boards, unlimited photos, and iCloud backup. Free, with no ads." : {
+      "extractionState" : "manual",
       "localizations" : {
-        "de" : {
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schalten Sie unbegrenzte Boards, Bilder und iCloud-Backup frei!"
+            "value" : "असीमित बोर्ड, असीमित फ़ोटो और iCloud बैकअप। मुफ़्त, बिना विज्ञापनों के।"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tableaux et photos illimités, sauvegarde iCloud. Gratuit, sans publicité."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡Desbloquea tableros ilimitados, imágenes ilimitadas y copia de seguridad en iCloud!"
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "¡Desbloquea tableros ilimitados, imágenes ilimitadas y copia de seguridad en iCloud!"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "अनलॉक करें: असीमित बोर्ड, असीमित चित्र, और iCloud बैकअप!"
+            "value" : "Tableros y fotos ilimitados, y copia en iCloud. Gratis y sin anuncios."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "無制限のボードと画像、そしてiCloudバックアップをアンロック！"
+            "value" : "ボードも写真も無制限。iCloudバックアップも無料。広告はありません。"
           }
         },
-        "pl" : {
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Odblokuj nieograniczone tablice, zdjęcia i kopię zapasową iCloud!"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "解锁无限画板、图片并使用 iCloud 备份！"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "解鎖無限圖板、圖片並使用iCloud 備份！"
-          }
-        }
-      }
-    },
-    "Upgrade to add more boards" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Upgrade, um mehr Boards hinzuzufügen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mejora para añadir más tableros."
+            "value" : "Papan dan foto tanpa batas, serta pencadangan iCloud. Gratis, tanpa iklan."
           }
         },
         "es-419" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mejora para agregar más tableros"
+            "value" : "Tableros y fotos ilimitados, y copia en iCloud. Gratis y sin anuncios."
           }
         },
-        "hi" : {
+        "en-IN" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "अधिक बोर्ड जोड़ने के लिए अपग्रेड करें।"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "さらにボードを追加するためにアップグレード"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zaktualizuj, aby dodać więcej tablic."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升级以增加更多画板"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升級以增加更多圖板"
-          }
-        }
-      }
-    },
-    "Upgrade to add more images" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Upgrade, um mehr Bilder hinzuzufügen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mejora para añadir más imágenes."
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mejora para agregar más imágenes"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "अधिक इमेज जोड़ने के लिए अपग्रेड करें।"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "さらに画像を追加するためにアップグレード"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zaktualizuj, aby dodać więcej zdjęć."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升级以增加更多图片"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升級以增加更多圖片"
-          }
-        }
-      }
-    },
-    "Upgrade to add more pictures." : {
-      "localizations" : {
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升級以新增更多圖片。"
-          }
-        }
-      }
-    },
-    "Upgrade to Pro" : {
-      "comment" : "In Purchase Prompt",
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Auf Pro upgraden"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mejorar a Pro"
-          }
-        },
-        "es-419" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mejora a Pro"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "प्रो में अपग्रेड करें।"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Proにアップグレード"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zaktualizuj do Pro."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升级到专业版"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升級到專業版"
-          }
-        }
-      }
-    },
-    "Upgrade to Pro for iCloud backup, unlimited boards, and an ad-free experience." : {
-      "comment" : "Tutorial",
-      "localizations" : {
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "升級到 Pro 享受 iCloud 備份、無限看板和無廣告體驗。"
+            "value" : "Unlimited boards, unlimited photos, and iCloud backup. Free, with no ads."
           }
         }
       }
@@ -2850,7 +5785,7 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "iCloud पर अपलोड करें।"
+            "value" : "iCloud पर अपलोड करें"
           }
         },
         "ja" : {
@@ -2876,8 +5811,27 @@
             "state" : "translated",
             "value" : "上傳至 iCloud"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléverser sur iCloud"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unggah ke iCloud"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload to iCloud"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Welcome to React" : {
       "comment" : "Tutorial",
@@ -2887,8 +5841,51 @@
             "state" : "translated",
             "value" : "歡迎使用 React"
           }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "React में आपका स्वागत है"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue sur React"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te damos la bienvenida a React"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reactへようこそ"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selamat datang di React"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te damos la bienvenida a React"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to React"
+          }
         }
-      }
+      },
+      "extractionState" : "manual"
     },
     "Would you like to add the copied image to a board?" : {
       "comment" : "Clipboard Paste\nPaste to Clipboard alert",
@@ -2897,6 +5894,96 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "您要將已複製的圖片新增到圖板嗎？"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "क्या आप कॉपी की गई फ़ोटो को किसी बोर्ड में जोड़ना चाहते हैं?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous ajouter la photo copiée à un tableau ?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quieres añadir la foto copiada a un tablero?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーした写真をボードに追加しますか？"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambahkan foto yang disalin ke papan?"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quieres añadir la foto copiada a un tablero?"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Would you like to add the copied image to a board?"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "Your Boards" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आपके बोर्ड"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos tableaux"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus tableros"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイボード"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan Anda"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus tableros"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Boards"
           }
         }
       }
@@ -2908,6 +5995,332 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "縮放"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ज़ूम"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrandir"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ampliar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拡大"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perbesar"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ampliar"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "iCloud container not found." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud-Container nicht gefunden."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontró el contenedor de iCloud."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontró el contenedor de iCloud."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud कंटेनर नहीं मिला।"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloudコンテナが見つかりません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie znaleziono kontenera iCloud."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到 iCloud 容器。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到 iCloud 容器。"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conteneur iCloud introuvable."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontainer iCloud tidak ditemukan."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud container not found."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "iCloud is not available." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud ist nicht verfügbar."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud no está disponible."
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud no está disponible."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud उपलब्ध नहीं है।"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloudを利用できません。"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud jest niedostępne."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到 iCloud。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到iCloud。"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud n’est pas disponible."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud tidak tersedia."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud is not available."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "return" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रिटर्न"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "retour"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "intro"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "改行"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kembali"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "intro"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "return"
+          }
+        }
+      }
+    },
+    "space" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "स्पेस"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "espace"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "espacio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空白"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "spasi"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "espacio"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "space"
+          }
+        }
+      }
+    },
+    "♬" : {
+      "shouldTranslate" : false,
+      "localizations" : {
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♬"
           }
         }
       }

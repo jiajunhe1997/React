@@ -7,7 +7,7 @@ struct RenameCategoryModal: View {
     @FocusState private var isTextFieldFocused: Bool
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 TextField(NSLocalizedString("New Board Name", comment: "text field hint in rename board dialogue"), text: $newCategoryName)
                     .padding()

@@ -14,8 +14,6 @@
 		2819C7882CC69441004E778F /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819C7872CC69441004E778F /* Sounds.swift */; };
 		2819C78A2CC6A9E0004E778F /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819C7892CC6A9E0004E778F /* ShareSheet.swift */; };
 		28289E112CB2B11C00B15D33 /* ZoomedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28289E102CB2B11C00B15D33 /* ZoomedImageView.swift */; };
-		282B0F3D2C9C3ED70089BFC7 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B0F3C2C9C3ED70089BFC7 /* StoreManager.swift */; };
-		282B0F3F2C9C40A70089BFC7 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B0F3E2C9C40A70089BFC7 /* IAPProduct.swift */; };
 		285555F82C986E35007DB05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285555F72C986E35007DB05D /* Assets.xcassets */; };
 		285555FB2C986E35007DB05D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285555FA2C986E35007DB05D /* Preview Assets.xcassets */; };
 		285556052C986E35007DB05D /* ReactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285556042C986E35007DB05D /* ReactTests.swift */; };
@@ -39,8 +37,6 @@
 		287D1A212CB11EED0077EF34 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A202CB11EED0077EF34 /* ToastView.swift */; };
 		287D1A2B2CB1284D0077EF34 /* PlusButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A2A2CB1284D0077EF34 /* PlusButtonView.swift */; };
 		287D1A2F2CB152450077EF34 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A2E2CB152450077EF34 /* Discover.swift */; };
-		288118002CACF43500562C65 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288117FF2CACF43500562C65 /* AdBannerView.swift */; };
-		288118092CACFDBA00562C65 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 288118082CACFDBA00562C65 /* GoogleMobileAds */; };
 		288159CB2CABE3E6005E85EE /* iCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288159CA2CABE3E6005E85EE /* iCloud.swift */; };
 		2882CBE12CD2BBE2006EC111 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CBE02CD2BBE2006EC111 /* ImageViewModel.swift */; };
 		2882CBE32CD2BBF7006EC111 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CBE22CD2BBF7006EC111 /* RemoteImageView.swift */; };
@@ -49,7 +45,6 @@
 		28895ECB2C9A3D2300856F34 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28895ECA2C9A3D2300856F34 /* CloudKit.framework */; };
 		28895EDF2C9A66AA00856F34 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28895EDA2C9A64BF00856F34 /* MainView.swift */; };
 		28895EE02C9A66BA00856F34 /* ReactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28895EDC2C9A655500856F34 /* ReactApp.swift */; };
-		28895EE42C9B32A900856F34 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28895EE32C9B32A900856F34 /* StoreKit.framework */; };
 		289023802CB84E2100F0032D /* Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 289023792CB84E2100F0032D /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28C4AD5C2CA43651008D05AF /* ReorderCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4AD5B2CA43651008D05AF /* ReorderCategoriesView.swift */; };
 /* End PBXBuildFile section */
@@ -107,8 +102,6 @@
 		2819C7872CC69441004E778F /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		2819C7892CC6A9E0004E778F /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		28289E102CB2B11C00B15D33 /* ZoomedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomedImageView.swift; sourceTree = "<group>"; };
-		282B0F3C2C9C3ED70089BFC7 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
-		282B0F3E2C9C40A70089BFC7 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
 		285555F02C986E33007DB05D /* React.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = React.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		285555F72C986E35007DB05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285555FA2C986E35007DB05D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -133,7 +126,6 @@
 		287D1A202CB11EED0077EF34 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		287D1A2A2CB1284D0077EF34 /* PlusButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButtonView.swift; sourceTree = "<group>"; };
 		287D1A2E2CB152450077EF34 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
-		288117FF2CACF43500562C65 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
 		2881180F2CAD057F00562C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288159CA2CABE3E6005E85EE /* iCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloud.swift; sourceTree = "<group>"; };
 		2882CBE02CD2BBE2006EC111 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
@@ -143,7 +135,6 @@
 		28895ECA2C9A3D2300856F34 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		28895EDA2C9A64BF00856F34 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		28895EDC2C9A655500856F34 /* ReactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactApp.swift; sourceTree = "<group>"; };
-		28895EE32C9B32A900856F34 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		289023792CB84E2100F0032D /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C4AD5B2CA43651008D05AF /* ReorderCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderCategoriesView.swift; sourceTree = "<group>"; };
 		36A58F302F2E45AE008FB851 /* ReactDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReactDebug.entitlements; sourceTree = "<group>"; };
@@ -176,9 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288118092CACFDBA00562C65 /* GoogleMobileAds in Frameworks */,
 				28895ECB2C9A3D2300856F34 /* CloudKit.framework in Frameworks */,
-				28895EE42C9B32A900856F34 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +287,6 @@
 				287D1A082CB119F00077EF34 /* LoadingView.swift */,
 				2806DD8B2CB532B30020672E /* TutorialPageView.swift */,
 				280869D52CB812D3008D434B /* ClipboardImageAlertView.swift */,
-				288117FF2CACF43500562C65 /* AdBannerView.swift */,
 				287D19F92CB06E0A0077EF34 /* ContentViewModel.swift */,
 			);
 			path = MainViews;
@@ -318,7 +306,6 @@
 		28895EC92C9A3D2200856F34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28895EE32C9B32A900856F34 /* StoreKit.framework */,
 				28895ECA2C9A3D2300856F34 /* CloudKit.framework */,
 			);
 			name = Frameworks;
@@ -331,8 +318,6 @@
 				287D19F72CB06B270077EF34 /* PhotoPicker.swift */,
 				2806A0962CBE95DF00C6814A /* ImageUtils.swift */,
 				288159CA2CABE3E6005E85EE /* iCloud.swift */,
-				282B0F3C2C9C3ED70089BFC7 /* StoreManager.swift */,
-				282B0F3E2C9C40A70089BFC7 /* IAPProduct.swift */,
 				2819C7892CC6A9E0004E778F /* ShareSheet.swift */,
 				28895EDC2C9A655500856F34 /* ReactApp.swift */,
 			);
@@ -487,10 +472,12 @@
 				de,
 				es,
 				"es-419",
+				fr,
+				id,
+				"en-IN",
 			);
 			mainGroup = 285555E72C986E33007DB05D;
 			packageReferences = (
-				288118072CACFDBA00562C65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			productRefGroup = 285555F12C986E33007DB05D /* Products */;
 			projectDirPath = "";
@@ -552,11 +539,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				287D1A042CB0726D0077EF34 /* CategoryButtonsView.swift in Sources */,
-				288118002CACF43500562C65 /* AdBannerView.swift in Sources */,
 				2882CBE52CD2BC0B006EC111 /* ImageLoaderCache.swift in Sources */,
 				2819C78A2CC6A9E0004E778F /* ShareSheet.swift in Sources */,
 				2806DD8C2CB532B30020672E /* TutorialPageView.swift in Sources */,
-				282B0F3D2C9C3ED70089BFC7 /* StoreManager.swift in Sources */,
 				287D1A172CB11BD00077EF34 /* CustomButtonView.swift in Sources */,
 				2806A0972CBE95DF00C6814A /* ImageUtils.swift in Sources */,
 				287D1A072CB119AD0077EF34 /* StorageUsageView.swift in Sources */,
@@ -573,7 +558,6 @@
 				28289E112CB2B11C00B15D33 /* ZoomedImageView.swift in Sources */,
 				287D19FA2CB06E0A0077EF34 /* ContentViewModel.swift in Sources */,
 				287D1A002CB0709D0077EF34 /* GridView.swift in Sources */,
-				282B0F3F2C9C40A70089BFC7 /* IAPProduct.swift in Sources */,
 				2882CBE72CD2BC4A006EC111 /* OnlineZoomedImageView.swift in Sources */,
 				287D1A0B2CB11A0C0077EF34 /* RenameCategoryModal.swift in Sources */,
 				2819C7882CC69441004E778F /* Sounds.swift in Sources */,
@@ -787,7 +771,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -826,7 +810,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -996,7 +980,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1027,7 +1011,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1090,24 +1074,7 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		288118072CACFDBA00562C65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.10.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 
-/* Begin XCSwiftPackageProductDependency section */
-		288118082CACFDBA00562C65 /* GoogleMobileAds */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 288118072CACFDBA00562C65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
-			productName = GoogleMobileAds;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 285555E82C986E33007DB05D /* Project object */;
 }
