@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2806A0972CBE95DF00C6814A /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806A0962CBE95DF00C6814A /* ImageUtils.swift */; };
+		2806A0982CBE95DF00C6814A /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806A0962CBE95DF00C6814A /* ImageUtils.swift */; };
+		2806DD8C2CB532B30020672E /* TutorialPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806DD8B2CB532B30020672E /* TutorialPageView.swift */; };
+		280869D62CB812D3008D434B /* ClipboardImageAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280869D52CB812D3008D434B /* ClipboardImageAlertView.swift */; };
+		2819C7882CC69441004E778F /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819C7872CC69441004E778F /* Sounds.swift */; };
+		2819C78A2CC6A9E0004E778F /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2819C7892CC6A9E0004E778F /* ShareSheet.swift */; };
+		28289E112CB2B11C00B15D33 /* ZoomedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28289E102CB2B11C00B15D33 /* ZoomedImageView.swift */; };
+		282B0F3D2C9C3ED70089BFC7 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B0F3C2C9C3ED70089BFC7 /* StoreManager.swift */; };
+		282B0F3F2C9C40A70089BFC7 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B0F3E2C9C40A70089BFC7 /* IAPProduct.swift */; };
+		285555F82C986E35007DB05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285555F72C986E35007DB05D /* Assets.xcassets */; };
+		285555FB2C986E35007DB05D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285555FA2C986E35007DB05D /* Preview Assets.xcassets */; };
+		285556052C986E35007DB05D /* ReactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285556042C986E35007DB05D /* ReactTests.swift */; };
+		2855560F2C986E35007DB05D /* ReactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855560E2C986E35007DB05D /* ReactUITests.swift */; };
+		285556112C986E35007DB05D /* ReactUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285556102C986E35007DB05D /* ReactUITestsLaunchTests.swift */; };
+		286D71272CC3A3580082A524 /* React Share.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 286D711D2CC3A3580082A524 /* React Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		286D712E2CC3AF5D0082A524 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D712D2CC3AF5D0082A524 /* Category.swift */; };
+		286D712F2CC3AF5D0082A524 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D712D2CC3AF5D0082A524 /* Category.swift */; };
+		286D71302CC3AF5D0082A524 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D712D2CC3AF5D0082A524 /* Category.swift */; };
+		287D19F32CAED6D00077EF34 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 287D19F22CAED6D00077EF34 /* Localizable.xcstrings */; };
+		287D19F82CB06B270077EF34 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D19F72CB06B270077EF34 /* PhotoPicker.swift */; };
+		287D19FA2CB06E0A0077EF34 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D19F92CB06E0A0077EF34 /* ContentViewModel.swift */; };
+		287D19FC2CB06F170077EF34 /* HeaderMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D19FB2CB06F170077EF34 /* HeaderMenuView.swift */; };
+		287D1A002CB0709D0077EF34 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D19FF2CB0709D0077EF34 /* GridView.swift */; };
+		287D1A042CB0726D0077EF34 /* CategoryButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A032CB0726D0077EF34 /* CategoryButtonsView.swift */; };
+		287D1A072CB119AD0077EF34 /* StorageUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A062CB119AD0077EF34 /* StorageUsageView.swift */; };
+		287D1A092CB119F00077EF34 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A082CB119F00077EF34 /* LoadingView.swift */; };
+		287D1A0B2CB11A0C0077EF34 /* RenameCategoryModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A0A2CB11A0C0077EF34 /* RenameCategoryModal.swift */; };
+		287D1A152CB11B960077EF34 /* LongPressImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A142CB11B960077EF34 /* LongPressImageView.swift */; };
+		287D1A172CB11BD00077EF34 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A162CB11BD00077EF34 /* CustomButtonView.swift */; };
+		287D1A212CB11EED0077EF34 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A202CB11EED0077EF34 /* ToastView.swift */; };
+		287D1A2B2CB1284D0077EF34 /* PlusButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A2A2CB1284D0077EF34 /* PlusButtonView.swift */; };
+		287D1A2F2CB152450077EF34 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D1A2E2CB152450077EF34 /* Discover.swift */; };
+		288118002CACF43500562C65 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288117FF2CACF43500562C65 /* AdBannerView.swift */; };
+		288118092CACFDBA00562C65 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 288118082CACFDBA00562C65 /* GoogleMobileAds */; };
+		288159CB2CABE3E6005E85EE /* iCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288159CA2CABE3E6005E85EE /* iCloud.swift */; };
+		2882CBE12CD2BBE2006EC111 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CBE02CD2BBE2006EC111 /* ImageViewModel.swift */; };
+		2882CBE32CD2BBF7006EC111 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CBE22CD2BBF7006EC111 /* RemoteImageView.swift */; };
+		2882CBE52CD2BC0B006EC111 /* ImageLoaderCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CBE42CD2BC0B006EC111 /* ImageLoaderCache.swift */; };
+		2882CBE72CD2BC4A006EC111 /* OnlineZoomedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882CBE62CD2BC4A006EC111 /* OnlineZoomedImageView.swift */; };
+		28895ECB2C9A3D2300856F34 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28895ECA2C9A3D2300856F34 /* CloudKit.framework */; };
+		28895EDF2C9A66AA00856F34 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28895EDA2C9A64BF00856F34 /* MainView.swift */; };
+		28895EE02C9A66BA00856F34 /* ReactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28895EDC2C9A655500856F34 /* ReactApp.swift */; };
+		28895EE42C9B32A900856F34 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28895EE32C9B32A900856F34 /* StoreKit.framework */; };
+		289023802CB84E2100F0032D /* Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 289023792CB84E2100F0032D /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		28C4AD5C2CA43651008D05AF /* ReorderCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4AD5B2CA43651008D05AF /* ReorderCategoriesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285556012C986E35007DB05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285555E82C986E33007DB05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285555EF2C986E33007DB05D;
+			remoteInfo = React;
+		};
+		2855560B2C986E35007DB05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285555E82C986E33007DB05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285555EF2C986E33007DB05D;
+			remoteInfo = React;
+		};
+		286D71252CC3A3580082A524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285555E82C986E33007DB05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286D711C2CC3A3580082A524;
+			remoteInfo = "React Share";
+		};
+		2890237E2CB84E2100F0032D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285555E82C986E33007DB05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289023782CB84E2100F0032D;
+			remoteInfo = Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		289023812CB84E2100F0032D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				286D71272CC3A3580082A524 /* React Share.appex in Embed Foundation Extensions */,
+				289023802CB84E2100F0032D /* Keyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2806A0962CBE95DF00C6814A /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		2806DD8B2CB532B30020672E /* TutorialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageView.swift; sourceTree = "<group>"; };
+		280869D52CB812D3008D434B /* ClipboardImageAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardImageAlertView.swift; sourceTree = "<group>"; };
+		2819C7872CC69441004E778F /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		2819C7892CC6A9E0004E778F /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		28289E102CB2B11C00B15D33 /* ZoomedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomedImageView.swift; sourceTree = "<group>"; };
+		282B0F3C2C9C3ED70089BFC7 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		282B0F3E2C9C40A70089BFC7 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		285555F02C986E33007DB05D /* React.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = React.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		285555F72C986E35007DB05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285555FA2C986E35007DB05D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		285556002C986E35007DB05D /* ReactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		285556042C986E35007DB05D /* ReactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactTests.swift; sourceTree = "<group>"; };
+		2855560A2C986E35007DB05D /* ReactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2855560E2C986E35007DB05D /* ReactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactUITests.swift; sourceTree = "<group>"; };
+		285556102C986E35007DB05D /* ReactUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		286D711D2CC3A3580082A524 /* React Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "React Share.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286D712D2CC3AF5D0082A524 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		287D19F22CAED6D00077EF34 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		287D19F72CB06B270077EF34 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		287D19F92CB06E0A0077EF34 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		287D19FB2CB06F170077EF34 /* HeaderMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMenuView.swift; sourceTree = "<group>"; };
+		287D19FF2CB0709D0077EF34 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		287D1A032CB0726D0077EF34 /* CategoryButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonsView.swift; sourceTree = "<group>"; };
+		287D1A062CB119AD0077EF34 /* StorageUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUsageView.swift; sourceTree = "<group>"; };
+		287D1A082CB119F00077EF34 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		287D1A0A2CB11A0C0077EF34 /* RenameCategoryModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameCategoryModal.swift; sourceTree = "<group>"; };
+		287D1A142CB11B960077EF34 /* LongPressImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressImageView.swift; sourceTree = "<group>"; };
+		287D1A162CB11BD00077EF34 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		287D1A202CB11EED0077EF34 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		287D1A2A2CB1284D0077EF34 /* PlusButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButtonView.swift; sourceTree = "<group>"; };
+		287D1A2E2CB152450077EF34 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		288117FF2CACF43500562C65 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		2881180F2CAD057F00562C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288159CA2CABE3E6005E85EE /* iCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloud.swift; sourceTree = "<group>"; };
+		2882CBE02CD2BBE2006EC111 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		2882CBE22CD2BBF7006EC111 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		2882CBE42CD2BC0B006EC111 /* ImageLoaderCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderCache.swift; sourceTree = "<group>"; };
+		2882CBE62CD2BC4A006EC111 /* OnlineZoomedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineZoomedImageView.swift; sourceTree = "<group>"; };
+		28895ECA2C9A3D2300856F34 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		28895EDA2C9A64BF00856F34 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		28895EDC2C9A655500856F34 /* ReactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactApp.swift; sourceTree = "<group>"; };
+		28895EE32C9B32A900856F34 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		289023792CB84E2100F0032D /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C4AD5B2CA43651008D05AF /* ReorderCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderCategoriesView.swift; sourceTree = "<group>"; };
+		36A58F302F2E45AE008FB851 /* ReactDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReactDebug.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		286D71282CC3A3580082A524 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 286D711C2CC3A3580082A524 /* React Share */;
+		};
+		289023842CB84E2100F0032D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 289023782CB84E2100F0032D /* Keyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		286D711E2CC3A3580082A524 /* React Share */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (286D71282CC3A3580082A524 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "React Share"; sourceTree = "<group>"; };
+		2890237A2CB84E2100F0032D /* Keyboard */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (289023842CB84E2100F0032D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Keyboard; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285555ED2C986E33007DB05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288118092CACFDBA00562C65 /* GoogleMobileAds in Frameworks */,
+				28895ECB2C9A3D2300856F34 /* CloudKit.framework in Frameworks */,
+				28895EE42C9B32A900856F34 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285555FD2C986E35007DB05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285556072C986E35007DB05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286D711A2CC3A3580082A524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289023762CB84E2100F0032D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285555E72C986E33007DB05D = {
+			isa = PBXGroup;
+			children = (
+				286D711E2CC3A3580082A524 /* React Share */,
+				28895EC92C9A3D2200856F34 /* Frameworks */,
+				2890237A2CB84E2100F0032D /* Keyboard */,
+				285555F22C986E33007DB05D /* React */,
+				285556032C986E35007DB05D /* ReactTests */,
+				2855560D2C986E35007DB05D /* ReactUITests */,
+				285555F12C986E33007DB05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285555F12C986E33007DB05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285555F02C986E33007DB05D /* React.app */,
+				285556002C986E35007DB05D /* ReactTests.xctest */,
+				2855560A2C986E35007DB05D /* ReactUITests.xctest */,
+				289023792CB84E2100F0032D /* Keyboard.appex */,
+				286D711D2CC3A3580082A524 /* React Share.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285555F22C986E33007DB05D /* React */ = {
+			isa = PBXGroup;
+			children = (
+				36A58F302F2E45AE008FB851 /* ReactDebug.entitlements */,
+				28895EDA2C9A64BF00856F34 /* MainView.swift */,
+				287D1A2E2CB152450077EF34 /* Discover.swift */,
+				2819C7872CC69441004E778F /* Sounds.swift */,
+				287D1A052CB075B50077EF34 /* MainViews */,
+				2882CBE82CD2BCB3006EC111 /* DiscoverView */,
+				2899C6BB2CD3A681003028CB /* Utilities */,
+				2881180F2CAD057F00562C65 /* Info.plist */,
+				287D19F22CAED6D00077EF34 /* Localizable.xcstrings */,
+				285555F72C986E35007DB05D /* Assets.xcassets */,
+				285555F92C986E35007DB05D /* Preview Content */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
+		285555F92C986E35007DB05D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				285555FA2C986E35007DB05D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		285556032C986E35007DB05D /* ReactTests */ = {
+			isa = PBXGroup;
+			children = (
+				285556042C986E35007DB05D /* ReactTests.swift */,
+			);
+			path = ReactTests;
+			sourceTree = "<group>";
+		};
+		2855560D2C986E35007DB05D /* ReactUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2855560E2C986E35007DB05D /* ReactUITests.swift */,
+				285556102C986E35007DB05D /* ReactUITestsLaunchTests.swift */,
+			);
+			path = ReactUITests;
+			sourceTree = "<group>";
+		};
+		287D1A052CB075B50077EF34 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				287D19FB2CB06F170077EF34 /* HeaderMenuView.swift */,
+				287D19FF2CB0709D0077EF34 /* GridView.swift */,
+				287D1A2A2CB1284D0077EF34 /* PlusButtonView.swift */,
+				287D1A142CB11B960077EF34 /* LongPressImageView.swift */,
+				28289E102CB2B11C00B15D33 /* ZoomedImageView.swift */,
+				287D1A032CB0726D0077EF34 /* CategoryButtonsView.swift */,
+				287D1A162CB11BD00077EF34 /* CustomButtonView.swift */,
+				287D1A202CB11EED0077EF34 /* ToastView.swift */,
+				287D1A0A2CB11A0C0077EF34 /* RenameCategoryModal.swift */,
+				28C4AD5B2CA43651008D05AF /* ReorderCategoriesView.swift */,
+				287D1A062CB119AD0077EF34 /* StorageUsageView.swift */,
+				287D1A082CB119F00077EF34 /* LoadingView.swift */,
+				2806DD8B2CB532B30020672E /* TutorialPageView.swift */,
+				280869D52CB812D3008D434B /* ClipboardImageAlertView.swift */,
+				288117FF2CACF43500562C65 /* AdBannerView.swift */,
+				287D19F92CB06E0A0077EF34 /* ContentViewModel.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		2882CBE82CD2BCB3006EC111 /* DiscoverView */ = {
+			isa = PBXGroup;
+			children = (
+				2882CBE02CD2BBE2006EC111 /* ImageViewModel.swift */,
+				2882CBE62CD2BC4A006EC111 /* OnlineZoomedImageView.swift */,
+				2882CBE42CD2BC0B006EC111 /* ImageLoaderCache.swift */,
+				2882CBE22CD2BBF7006EC111 /* RemoteImageView.swift */,
+			);
+			path = DiscoverView;
+			sourceTree = "<group>";
+		};
+		28895EC92C9A3D2200856F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28895EE32C9B32A900856F34 /* StoreKit.framework */,
+				28895ECA2C9A3D2300856F34 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2899C6BB2CD3A681003028CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				286D712D2CC3AF5D0082A524 /* Category.swift */,
+				287D19F72CB06B270077EF34 /* PhotoPicker.swift */,
+				2806A0962CBE95DF00C6814A /* ImageUtils.swift */,
+				288159CA2CABE3E6005E85EE /* iCloud.swift */,
+				282B0F3C2C9C3ED70089BFC7 /* StoreManager.swift */,
+				282B0F3E2C9C40A70089BFC7 /* IAPProduct.swift */,
+				2819C7892CC6A9E0004E778F /* ShareSheet.swift */,
+				28895EDC2C9A655500856F34 /* ReactApp.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285555EF2C986E33007DB05D /* React */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285556142C986E35007DB05D /* Build configuration list for PBXNativeTarget "React" */;
+			buildPhases = (
+				285555EC2C986E33007DB05D /* Sources */,
+				285555ED2C986E33007DB05D /* Frameworks */,
+				285555EE2C986E33007DB05D /* Resources */,
+				289023812CB84E2100F0032D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2890237F2CB84E2100F0032D /* PBXTargetDependency */,
+				286D71262CC3A3580082A524 /* PBXTargetDependency */,
+			);
+			name = React;
+			productName = React;
+			productReference = 285555F02C986E33007DB05D /* React.app */;
+			productType = "com.apple.product-type.application";
+		};
+		285555FF2C986E35007DB05D /* ReactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285556172C986E35007DB05D /* Build configuration list for PBXNativeTarget "ReactTests" */;
+			buildPhases = (
+				285555FC2C986E35007DB05D /* Sources */,
+				285555FD2C986E35007DB05D /* Frameworks */,
+				285555FE2C986E35007DB05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285556022C986E35007DB05D /* PBXTargetDependency */,
+			);
+			name = ReactTests;
+			productName = ReactTests;
+			productReference = 285556002C986E35007DB05D /* ReactTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		285556092C986E35007DB05D /* ReactUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2855561A2C986E35007DB05D /* Build configuration list for PBXNativeTarget "ReactUITests" */;
+			buildPhases = (
+				285556062C986E35007DB05D /* Sources */,
+				285556072C986E35007DB05D /* Frameworks */,
+				285556082C986E35007DB05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2855560C2C986E35007DB05D /* PBXTargetDependency */,
+			);
+			name = ReactUITests;
+			productName = ReactUITests;
+			productReference = 2855560A2C986E35007DB05D /* ReactUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		286D711C2CC3A3580082A524 /* React Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286D71292CC3A3580082A524 /* Build configuration list for PBXNativeTarget "React Share" */;
+			buildPhases = (
+				286D71192CC3A3580082A524 /* Sources */,
+				286D711A2CC3A3580082A524 /* Frameworks */,
+				286D711B2CC3A3580082A524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				286D711E2CC3A3580082A524 /* React Share */,
+			);
+			name = "React Share";
+			packageProductDependencies = (
+			);
+			productName = "React Share";
+			productReference = 286D711D2CC3A3580082A524 /* React Share.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		289023782CB84E2100F0032D /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289023852CB84E2100F0032D /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				289023752CB84E2100F0032D /* Sources */,
+				289023762CB84E2100F0032D /* Frameworks */,
+				289023772CB84E2100F0032D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2890237A2CB84E2100F0032D /* Keyboard */,
+			);
+			name = Keyboard;
+			packageProductDependencies = (
+			);
+			productName = Keyboard;
+			productReference = 289023792CB84E2100F0032D /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285555E82C986E33007DB05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					285555EF2C986E33007DB05D = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1600;
+					};
+					285555FF2C986E35007DB05D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 285555EF2C986E33007DB05D;
+					};
+					285556092C986E35007DB05D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 285555EF2C986E33007DB05D;
+					};
+					286D711C2CC3A3580082A524 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					289023782CB84E2100F0032D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 285555EB2C986E33007DB05D /* Build configuration list for PBXProject "React" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+				"zh-Hans",
+				ja,
+				hi,
+				pl,
+				de,
+				es,
+				"es-419",
+			);
+			mainGroup = 285555E72C986E33007DB05D;
+			packageReferences = (
+				288118072CACFDBA00562C65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 285555F12C986E33007DB05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285555EF2C986E33007DB05D /* React */,
+				289023782CB84E2100F0032D /* Keyboard */,
+				286D711C2CC3A3580082A524 /* React Share */,
+				285555FF2C986E35007DB05D /* ReactTests */,
+				285556092C986E35007DB05D /* ReactUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285555EE2C986E33007DB05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285555FB2C986E35007DB05D /* Preview Assets.xcassets in Resources */,
+				285555F82C986E35007DB05D /* Assets.xcassets in Resources */,
+				287D19F32CAED6D00077EF34 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285555FE2C986E35007DB05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285556082C986E35007DB05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286D711B2CC3A3580082A524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289023772CB84E2100F0032D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285555EC2C986E33007DB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287D1A042CB0726D0077EF34 /* CategoryButtonsView.swift in Sources */,
+				288118002CACF43500562C65 /* AdBannerView.swift in Sources */,
+				2882CBE52CD2BC0B006EC111 /* ImageLoaderCache.swift in Sources */,
+				2819C78A2CC6A9E0004E778F /* ShareSheet.swift in Sources */,
+				2806DD8C2CB532B30020672E /* TutorialPageView.swift in Sources */,
+				282B0F3D2C9C3ED70089BFC7 /* StoreManager.swift in Sources */,
+				287D1A172CB11BD00077EF34 /* CustomButtonView.swift in Sources */,
+				2806A0972CBE95DF00C6814A /* ImageUtils.swift in Sources */,
+				287D1A072CB119AD0077EF34 /* StorageUsageView.swift in Sources */,
+				280869D62CB812D3008D434B /* ClipboardImageAlertView.swift in Sources */,
+				287D1A2B2CB1284D0077EF34 /* PlusButtonView.swift in Sources */,
+				287D19FC2CB06F170077EF34 /* HeaderMenuView.swift in Sources */,
+				287D1A152CB11B960077EF34 /* LongPressImageView.swift in Sources */,
+				287D1A092CB119F00077EF34 /* LoadingView.swift in Sources */,
+				287D1A212CB11EED0077EF34 /* ToastView.swift in Sources */,
+				2882CBE12CD2BBE2006EC111 /* ImageViewModel.swift in Sources */,
+				28895EE02C9A66BA00856F34 /* ReactApp.swift in Sources */,
+				28C4AD5C2CA43651008D05AF /* ReorderCategoriesView.swift in Sources */,
+				287D19F82CB06B270077EF34 /* PhotoPicker.swift in Sources */,
+				28289E112CB2B11C00B15D33 /* ZoomedImageView.swift in Sources */,
+				287D19FA2CB06E0A0077EF34 /* ContentViewModel.swift in Sources */,
+				287D1A002CB0709D0077EF34 /* GridView.swift in Sources */,
+				282B0F3F2C9C40A70089BFC7 /* IAPProduct.swift in Sources */,
+				2882CBE72CD2BC4A006EC111 /* OnlineZoomedImageView.swift in Sources */,
+				287D1A0B2CB11A0C0077EF34 /* RenameCategoryModal.swift in Sources */,
+				2819C7882CC69441004E778F /* Sounds.swift in Sources */,
+				286D712E2CC3AF5D0082A524 /* Category.swift in Sources */,
+				287D1A2F2CB152450077EF34 /* Discover.swift in Sources */,
+				2882CBE32CD2BBF7006EC111 /* RemoteImageView.swift in Sources */,
+				28895EDF2C9A66AA00856F34 /* MainView.swift in Sources */,
+				288159CB2CABE3E6005E85EE /* iCloud.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285555FC2C986E35007DB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285556052C986E35007DB05D /* ReactTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285556062C986E35007DB05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2855560F2C986E35007DB05D /* ReactUITests.swift in Sources */,
+				285556112C986E35007DB05D /* ReactUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286D71192CC3A3580082A524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286D71302CC3AF5D0082A524 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289023752CB84E2100F0032D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2806A0982CBE95DF00C6814A /* ImageUtils.swift in Sources */,
+				286D712F2CC3AF5D0082A524 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285556022C986E35007DB05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285555EF2C986E33007DB05D /* React */;
+			targetProxy = 285556012C986E35007DB05D /* PBXContainerItemProxy */;
+		};
+		2855560C2C986E35007DB05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285555EF2C986E33007DB05D /* React */;
+			targetProxy = 2855560B2C986E35007DB05D /* PBXContainerItemProxy */;
+		};
+		286D71262CC3A3580082A524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286D711C2CC3A3580082A524 /* React Share */;
+			targetProxy = 286D71252CC3A3580082A524 /* PBXContainerItemProxy */;
+		};
+		2890237F2CB84E2100F0032D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289023782CB84E2100F0032D /* Keyboard */;
+			targetProxy = 2890237E2CB84E2100F0032D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		285556122C986E35007DB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		285556132C986E35007DB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285556152C986E35007DB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = React/ReactDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"React/Preview Content\"";
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = React/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = React;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 13;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.LitePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		285556162C986E35007DB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = React/React.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"React/Preview Content\"";
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = React/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = React;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 13;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.LitePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		285556182C986E35007DB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.PictoBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/React";
+			};
+			name = Debug;
+		};
+		285556192C986E35007DB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.PictoBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/React.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/React";
+			};
+			name = Release;
+		};
+		2855561B2C986E35007DB05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.PictoBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = React;
+			};
+			name = Debug;
+		};
+		2855561C2C986E35007DB05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.PictoBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = React;
+			};
+			name = Release;
+		};
+		286D712A2CC3A3580082A524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "React Share/React Share.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "React Share/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Share";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 13;
+				PRODUCT_BUNDLE_IDENTIFIER = "PictoBoard.LitePro.PictoBoard-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286D712B2CC3A3580082A524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "React Share/React Share.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "React Share/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Share";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 13;
+				PRODUCT_BUNDLE_IDENTIFIER = "PictoBoard.LitePro.PictoBoard-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		289023822CB84E2100F0032D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "React Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.LitePro.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		289023832CB84E2100F0032D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L6M4ZT862;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "React Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = PictoBoard.LitePro.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285555EB2C986E33007DB05D /* Build configuration list for PBXProject "React" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285556122C986E35007DB05D /* Debug */,
+				285556132C986E35007DB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285556142C986E35007DB05D /* Build configuration list for PBXNativeTarget "React" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285556152C986E35007DB05D /* Debug */,
+				285556162C986E35007DB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285556172C986E35007DB05D /* Build configuration list for PBXNativeTarget "ReactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285556182C986E35007DB05D /* Debug */,
+				285556192C986E35007DB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2855561A2C986E35007DB05D /* Build configuration list for PBXNativeTarget "ReactUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2855561B2C986E35007DB05D /* Debug */,
+				2855561C2C986E35007DB05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286D71292CC3A3580082A524 /* Build configuration list for PBXNativeTarget "React Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286D712A2CC3A3580082A524 /* Debug */,
+				286D712B2CC3A3580082A524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289023852CB84E2100F0032D /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289023822CB84E2100F0032D /* Debug */,
+				289023832CB84E2100F0032D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		288118072CACFDBA00562C65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		288118082CACFDBA00562C65 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 288118072CACFDBA00562C65 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 285555E82C986E33007DB05D /* Project object */;
+}

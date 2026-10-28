@@ -1,0 +1,33 @@
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Xcode personal settings and generated output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.dSYM.zip
+*.xcresult/
+
+# Swift Package Manager build output (keep Package.resolved for this app)
+.build/
+
+# Local secrets and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Local editor state
+.vscode/
+.idea/

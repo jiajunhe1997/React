@@ -2,22 +2,26 @@
 
 Welcome to **React**, your ultimate image organizing app designed to help you manage and categorize your photos effortlessly. Whether you're a casual user looking to keep your memories tidy or a pro needing advanced features, React has got you covered!
 
+## Development
+
+Open `React.xcodeproj` and select the shared `React` scheme. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, signing, and Git workflow details. This is the native Swift iOS app, unrelated to the React JavaScript framework.
+
 ## 📱 Features
 
 - **Organize with Boards:** Create multiple **Boards** (categories) to organize your images. Perfect for separating personal photos, work-related images, projects, and more!
-  
+
 - **Unlimited Boards & Images (Pro):** Purchase React to unlock unlimited Boards and add as many images as you like.
-  
+
 - **Trash Management:** Easily delete unwanted images by moving them to the Trash. You can also permanently delete items from the Trash.
-  
+
 - **iCloud Syncing:** Seamlessly sync your Boards and images across all your devices using iCloud. (Available for Pro users only!)
-  
+
 - **Rename & Rearrange Boards:** Customize your Boards by renaming them and rearranging their order to suit your preferences.
-  
+
 - **Storage Usage Insights:** Monitor how much storage each Board is using, helping you manage your device's storage effectively.
-  
+
 - **Image Editing:** Replace or delete images within any Board with just a few taps.
-  
+
 - **User-Friendly Interface:** Enjoy a clean and intuitive interface designed for ease of use.
 
 ## 🚀 Getting Started
@@ -96,6 +100,6 @@ For support or any questions, please reach out to me at [jiajunhe@gmail.com](mai
 
 ## 📝 License
 
-React Pro is solely owned by JiaJun He. All attempts to imitate or copy React will face legal reprucussions.
+The source code is available under the [MIT License](LICENSE).
 
 Thank you for choosing **React Pro**! We hope it helps you keep your memories organized and easily accessible. Happy organizing! 🎉
