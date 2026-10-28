@@ -291,7 +291,7 @@ class AudioViewModel: ObservableObject {
             } else {
                 DispatchQueue.main.async {
                     print("Failed to download file for sharing.")
-                    self.shareErrorMessage = "Failed to prepare audio file for sharing."
+                    self.shareErrorMessage = NSLocalizedString("Failed to prepare audio file for sharing.", comment: "")
                     self.showShareError = true
                 }
             }
@@ -341,6 +341,7 @@ struct SearchBar: View {
     var body: some View {
         HStack {
             TextField(NSLocalizedString("Search by title...", comment: "Search bar placeholder"), text: $text)
+                .accessibilityIdentifier("sound.search")
                 .padding(7)
                 .padding(.horizontal, 25)
                 .background(Color(.systemGray6))
@@ -394,7 +395,8 @@ struct AudioBoardView: View {
         VStack {
             SearchBar(text: $viewModel.searchQuery)
 
-            List {
+            ScrollView {
+                LazyVStack(spacing: 0) {
                 ForEach(viewModel.filteredAudioFiles) { audioFile in
                     HStack {
                         // Play/Pause Button
@@ -406,6 +408,8 @@ struct AudioBoardView: View {
                                 .frame(width: 30, height: 30)
                                 .foregroundColor(.accentColor)
                         }
+                        .frame(minWidth: 44, minHeight: 44)
+                        .accessibilityLabel(audioFile.isPlaying ? Text("Pause") : Text("Play"))
 
                         // Display Name
                         Text(audioFile.displayName)
@@ -421,6 +425,8 @@ struct AudioBoardView: View {
                                 .foregroundColor(audioFile.isFavorite ? .red : .gray)
                         }
                         .buttonStyle(BorderlessButtonStyle())
+                        .frame(minWidth: 44, minHeight: 44)
+                        .frame(minWidth: 44, minHeight: 44)
 
                         // Share Button
                         Button(action: {
@@ -430,11 +436,16 @@ struct AudioBoardView: View {
                                 .foregroundColor(.accentColor)
                         }
                         .buttonStyle(BorderlessButtonStyle())
+                        .frame(minWidth: 44, minHeight: 44)
+                        .frame(minWidth: 44, minHeight: 44)
                     }
-                    .padding(.vertical, 5)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 8)
+                    .buttonStyle(.plain)
+                    Divider().padding(.leading, 60)
+                }
                 }
             }
-            .listStyle(PlainListStyle())
             .refreshable {
                 viewModel.fetchAudioData()
             }
@@ -450,7 +461,7 @@ struct AudioBoardView: View {
                     Text(option.localizedName).tag(option)
                 }
             }
-            .pickerStyle(SegmentedPickerStyle())
+            .pickerStyle(.menu)
             .padding([.horizontal, .top])
             
             // Present the share sheet when `isShareSheetPresented` is true

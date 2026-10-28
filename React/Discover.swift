@@ -55,8 +55,7 @@ struct DiscoverView: View {
     private let refreshInterval: TimeInterval = 300 // 5 minutes
 
     let columns: [GridItem] = [
-        GridItem(.flexible(), spacing: 16),
-        GridItem(.flexible(), spacing: 16)
+        GridItem(.adaptive(minimum: 145, maximum: 280), spacing: 16)
     ]
 
     var body: some View {
@@ -130,7 +129,7 @@ struct DiscoverView: View {
                         Text(option.localizedName).tag(option)
                     }
                 }
-                .pickerStyle(SegmentedPickerStyle())
+                .pickerStyle(.menu)
                 .padding([.horizontal, .top])
             }
         }

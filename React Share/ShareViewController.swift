@@ -5,29 +5,19 @@ import UniformTypeIdentifiers
 import SwiftUI
 
 class ShareViewController: UIViewController {
-    let maxImagesForLiteUsers = 8 // Adjust this to your Lite user's limit
     let appGroupID = "group.com.PictoBoard.app"
-    var isFullVersionPurchased: Bool = false
     var categories: [Category] = []
     var selectedImage: UIImage?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Load the purchase status
-        loadPurchaseStatus()
         // Load categories
         loadCategories()
         // Handle incoming content
         handleIncomingContent()
     }
 
-    func loadPurchaseStatus() {
-        if let sharedDefaults = UserDefaults(suiteName: appGroupID) {
-            isFullVersionPurchased = sharedDefaults.bool(forKey: "isFullVersionPurchased")
-        } else {
-            isFullVersionPurchased = false // Default to Lite mode
-        }
-    }
+
 
     func loadCategories() {
         guard let containerURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: appGroupID) else {
@@ -46,11 +36,7 @@ class ShareViewController: UIViewController {
     }
 
     func handleIncomingContent() {
-        // Check if the user has reached the limit
-        if hasReachedImageLimit() {
-            // Show an alert to the user
-            showLimitReachedAlert()
-        } else {
+
             // Proceed to handle the incoming image
             if let extensionItem = extensionContext?.inputItems.first as? NSExtensionItem,
                let attachments = extensionItem.attachments {
@@ -83,7 +69,7 @@ class ShareViewController: UIViewController {
                     }
                 }
             }
-        }
+
     }
 
     func presentBoardSelection() {
@@ -168,40 +154,9 @@ class ShareViewController: UIViewController {
         }
     }
 
-    func hasReachedImageLimit() -> Bool {
-        if isFullVersionPurchased {
-            // No limit for Pro users
-            return false
-        } else {
-            // Check the number of images
-            guard let containerURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: appGroupID) else {
-                print("Shared container not found.")
-                return true // Assume limit reached if cannot access container
-            }
-            let imagesURL = containerURL.appendingPathComponent("Images")
-            do {
-                let imageFiles = try FileManager.default.contentsOfDirectory(atPath: imagesURL.path)
-                let imageCount = imageFiles.count
-                return imageCount >= maxImagesForLiteUsers
-            } catch {
-                print("Error accessing images: \(error.localizedDescription)")
-                return true // Assume limit reached if cannot access images
-            }
-        }
-    }
 
-    func showLimitReachedAlert() {
-        DispatchQueue.main.async {
-            let alert = UIAlertController(title: NSLocalizedString("Limit Reached", comment: ""),
-                                          message: NSLocalizedString("You have reached the maximum number of images allowed for the Lite version. Please upgrade to Pro to add more images.", comment: ""),
-                                          preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .default, handler: { _ in
-                // Close the share sheet
-                self.dismissExtension()
-            }))
-            self.present(alert, animated: true, completion: nil)
-        }
-    }
+
+
 
     func dismissExtension() {
         self.extensionContext?.completeRequest(returningItems: [], completionHandler: nil)
@@ -214,7 +169,7 @@ struct BoardSelectionView: View {
     let onSelect: (Category) -> Void
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List(categories) { category in
                 Button(action: {
                     onSelect(category)

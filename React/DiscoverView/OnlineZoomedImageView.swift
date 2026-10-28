@@ -50,14 +50,15 @@ struct OnlineZoomableScrollView<Content: View>: UIViewRepresentable {
     }
 
     func makeUIView(context: Context) -> UIScrollView {
-        let scrollView = UIScrollView()
+        let scrollView = WindowSizedZoomScrollView()
         scrollView.delegate = context.coordinator
         scrollView.maximumZoomScale = 5.0
         scrollView.minimumZoomScale = 1.0
 
         let hostingController = UIHostingController(rootView: content)
         hostingController.view.translatesAutoresizingMaskIntoConstraints = true
-        hostingController.view.frame = UIScreen.main.bounds
+        hostingController.view.frame = scrollView.bounds
+        scrollView.zoomContent = hostingController.view
         scrollView.addSubview(hostingController.view)
 
         context.coordinator.hostingController = hostingController
@@ -66,7 +67,7 @@ struct OnlineZoomableScrollView<Content: View>: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: UIScrollView, context: Context) {
-        // No need to update the view
+        context.coordinator.hostingController?.rootView = content
     }
 
     func makeCoordinator() -> Coordinator {

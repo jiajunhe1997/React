@@ -1,56 +1,50 @@
 import SwiftUI
 
-// MARK: - Reorder Categories View
 struct ReorderCategoriesView: View {
     @ObservedObject var viewModel: ContentViewModel
-    @Environment(\.presentationMode) var presentationMode
-    @State private var editMode = EditMode.active // Start in edit mode
-    @State private var categoriesToReorder: [Category] = []
+    @Environment(\.dismiss) private var dismiss
+    @State private var boards: [Category] = []
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
-                ForEach(categoriesToReorder) { category in
-                    Text(category.name)
+                Section {
+                    ForEach(boards) { board in
+                        Label(board.name, systemImage: "rectangle.stack")
+                            .padding(.vertical, 8)
+                            .accessibilityAction(named: Text("Move Up")) { move(board, by: -1) }
+                            .accessibilityAction(named: Text("Move Down")) { move(board, by: 1) }
+                    }
+                    .onMove { boards.move(fromOffsets: $0, toOffset: $1) }
+                } header: {
+                    Text("Your Boards")
+                } footer: {
+                    Text("Drag the handles to arrange your boards. Trash stays at the end.")
                 }
-                .onMove(perform: move)
             }
-            .environment(\.editMode, $editMode)
-            .navigationBarTitle(NSLocalizedString("Rearrange Boards", comment: ""), displayMode: .inline)
-            .navigationBarItems(
-                leading: Button(NSLocalizedString("Cancel", comment: "Cancel board rearrangemet")) {
-                    presentationMode.wrappedValue.dismiss()
-                },
-                trailing: Button(NSLocalizedString("Done", comment: "Save board rearrangement")) {
-                    saveReorderedCategories()
-                    presentationMode.wrappedValue.dismiss()
+            .environment(\.editMode, .constant(.active))
+            .navigationTitle("Rearrange Boards")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Cancel") { dismiss() }
                 }
-            )
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Done") {
+                        viewModel.reorderBoards(ids: boards.map(\.id))
+                        dismiss()
+                    }
+                    .fontWeight(.semibold)
+                }
+            }
         }
-        .onAppear {
-            // Initialize categoriesToReorder excluding the Trash category
-            self.categoriesToReorder = viewModel.categories.filter { !$0.isTrash }
-        }
+        .onAppear { boards = viewModel.categories.filter { !$0.isTrash } }
+        .presentationDragIndicator(.visible)
     }
 
-    func move(from source: IndexSet, to destination: Int) {
-        categoriesToReorder.move(fromOffsets: source, toOffset: destination)
-    }
-
-    func saveReorderedCategories() {
-        // Update the viewModel.categories with the new order
-        if let trashCategory = viewModel.categories.first(where: { $0.isTrash }) {
-            viewModel.categories = categoriesToReorder + [trashCategory]
-        } else {
-            viewModel.categories = categoriesToReorder
-        }
-
-        // Update selectedCategoryIndex
-        if let selectedCategory = viewModel.categories.element(at: viewModel.selectedCategoryIndex),
-           let newIndex = viewModel.categories.firstIndex(where: { $0.id == selectedCategory.id }) {
-            viewModel.selectedCategoryIndex = newIndex
-        } else {
-            viewModel.selectedCategoryIndex = 0
-        }
+    private func move(_ board: Category, by offset: Int) {
+        guard let index = boards.firstIndex(where: { $0.id == board.id }),
+              boards.indices.contains(index + offset) else { return }
+        boards.swapAt(index, index + offset)
     }
 }

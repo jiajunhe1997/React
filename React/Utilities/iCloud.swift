@@ -31,8 +31,7 @@ class CloudManager: ObservableObject {
 
     // MARK: - Syncing with iCloud
     func syncWithiCloud() {
-        guard let viewModel = viewModel, viewModel.isFullVersionPurchased else {
-            showToastMessage(NSLocalizedString("iCloud backup is available for Pro users only.", comment: ""))
+        guard let viewModel = viewModel else {
             return
         }
         guard isICloudAvailable() else {
@@ -270,7 +269,7 @@ class CloudManager: ObservableObject {
             }
         } catch {
             DispatchQueue.main.async {
-                self.showToastMessage(NSLocalizedString("Failed to delete empty boards: \(error.localizedDescription)", comment: ""))
+                self.showToastMessage(String(format: NSLocalizedString("Failed to delete empty boards: %@", comment: ""), error.localizedDescription))
             }
             print("Failed to delete empty boards: \(error.localizedDescription)")
         }
